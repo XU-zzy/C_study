@@ -4,33 +4,20 @@
 
 using namespace std;
 
-vector<int> num;
+int num_1[] = {1,2,3,4,5};
+vector<int> num_2(num_1 + 2,num_1 + 10);
 
 int main(){
     
-    for(int i = 0;i < 100;i++){
-        num.push_back(i);
+    for(auto i = begin(num_2);i != end(num_2);i++){
+        cout << *i << endl;
     }
     
-    int ans;
-    cin >> ans;
+    /* auto num_3 = num_1; */
 
-    auto be = num.cbegin(),end = num.cend();
-    auto mid = num.cbegin() + (num.cend() - num.cbegin())/2;
-
-    while(mid != num.cend() && *mid != ans){
-        if(ans > *mid){
-            be = mid + 1;
-        }else{
-            end = mid;
-        }
-        
-        mid = be + (end - be)/2;
-        cout << *be << " " << *end << " " << *mid << endl;
+    for(auto n : num_2){
+        cout << n << endl;
     }
-
-    cout << "final:" << *mid << endl;
 
     return 0;
 }
-
