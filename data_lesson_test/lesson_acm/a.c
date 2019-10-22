@@ -76,7 +76,7 @@ int main(){
 	scanf("%d",&n);
 	
 	//printf("1\n");
-	struct node *head,*q;
+	struct node *head;
 	head = creat(n);
 	
 	sort_z(head);

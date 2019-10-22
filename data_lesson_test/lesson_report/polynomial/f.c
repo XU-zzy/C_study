@@ -1,5 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
+/*
+求导：
+4
+(6,0)(2,1)(8,7)(4,15)
+ans : 2+56X^6+60X^14
+加法:
+5
+(6,0)(2,1)(8,7)(4,15)(3,18)
+3
+(7,1)(2,6)(-8,7)
+ans: 6+9X+2X^6+4X^15+3X^18
+*/
+
 struct node {
 	int a;
 	int b;
@@ -257,12 +270,12 @@ int main(){
     head_1 = creat(n_1);
 	//printf("1\n");
 	
-	//int n_2;
-	//scanf("%d",&n_2);
-	//head_2 = creat(n_2);
+	int n_2;
+	scanf("%d",&n_2);
+	head_2 = creat(n_2);
 	
     //加法
-	//head = plus(head_1->next,head_2->next); 
+	head = plus(head_1->next,head_2->next); 
 	
     //减法
     /* head = sub(head_1->next,head_2->next); */
@@ -274,7 +287,7 @@ int main(){
 	//显示
     
     //求导
-    head = qiudao(head_1->next,n_1);
+    //head = qiudao(head_1->next,n_1);
 
     print(head);
 	
