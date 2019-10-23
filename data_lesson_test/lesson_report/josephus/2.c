@@ -1,3 +1,4 @@
+//静态链表约瑟夫环
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct node{

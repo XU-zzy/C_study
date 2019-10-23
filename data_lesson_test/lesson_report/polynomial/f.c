@@ -55,33 +55,17 @@ void print_ceshi(struct node *head){
 void print(struct node *head){
 	
 	struct node *p;
-	//printf("b\n");
 	p = head->next;
-	//printf("s\n");
 	if(!p){
         putchar('0');
         printf("\n");
 		return;
 	}
 	int flag = 1;
-	//printf("a\n");
 	while(p){
-		/*
-        if(p->a == 0){
-            p = p->next;
-            continue;
-        }
-        */
-        
         if(p->a > 0 && flag != 1){
 			printf("+");
 		}
-		
-		/*if(p->a == 0){
-			p = p->next;
-			continue;
-		}*/
-		
 		if(p->a != 1 && p->a != -1){
 			printf("%d",p->a);
 			//printf("X");
@@ -137,7 +121,6 @@ struct node * plus (struct node* head_1,struct node* head_2){
             q->b = head_1->b;
             q->a = head_1->a + head_2->a;
 
-            /* printf("a_1 = %d,b_1 = %d\n",head_1->a,head_2->a); */
             head_1 = head_1->next;
             head_2 = head_2->next;
         }else{
@@ -151,12 +134,10 @@ struct node * plus (struct node* head_1,struct node* head_2){
             q->next = p->next;
             p->next = q;
             p = q;
-            /* printf("a_1 = %d,b_1 = %d\n",q->a,q->b); */
         }
         else{
             free(q);
         }
-        /* printf("a_1 = %d,b_1 = %d\n",q->a,q->b); */
     }
 
 
@@ -171,7 +152,6 @@ struct node * plus (struct node* head_1,struct node* head_2){
         p = q;
 
         head_1 = head_1->next;
-        /* printf("a_2 = %d,b_2 = %d\n",q->a,q->b); */
     }
 
     while(head_2 != NULL){
@@ -184,7 +164,6 @@ struct node * plus (struct node* head_1,struct node* head_2){
         p = q;
 
         head_2 = head_2->next;
-        /* printf("a_3 = %d,b_3 = %d\n",q->a,q->b); */
     }
     
     return head;
@@ -246,7 +225,7 @@ void destory(struct node *head){
 }
 
 
-struct node* qiudao(struct node *head,int n){
+struct node* qiudao(struct node *head){
     struct node *p;
     p = head;
 
@@ -261,14 +240,13 @@ struct node* qiudao(struct node *head,int n){
 
 
 int main(){
-	struct node *head,*head_1,*q,*head_2;
+	struct node *head,*head_1,*head_2;
 	int n_1;
 	scanf("%d",&n_1);
 	
     
     //创建链表输入
     head_1 = creat(n_1);
-	//printf("1\n");
 	
 	int n_2;
 	scanf("%d",&n_2);
@@ -287,7 +265,7 @@ int main(){
 	//显示
     
     //求导
-    //head = qiudao(head_1->next,n_1);
+    //head = qiudao(head_1->next);
 
     print(head);
 	
