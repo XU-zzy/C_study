@@ -8,13 +8,13 @@ typedef struct node{
     struct node *next;
 }Jose_node;
 
-//打印链表
+//debug打印链表
 void print_list(Jose_node *head,int n){
         Jose_node *p = head;
         while(n--){
             printf("data = %d,num = %d \n",p->data,p->num);
             p = p->next;
-            getchar();
+            getchar(); 
         }
 }
 //创建链表
@@ -113,4 +113,3 @@ int main()
     Josephus(head,pwd);
     return 0;
 }
-
