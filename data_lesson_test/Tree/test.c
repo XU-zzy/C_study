@@ -31,10 +31,11 @@ void CreatBiTree(BiTree *T){
     }
 }*/
 
+//前序输入二叉树
 void CreatBiTree(BiTree *T){
     TElemType ch;
     scanf("%c",&ch);
-    getchar();
+    /* getchar(); */
     if(ch == '#'){
         *T = NULL;
     }else{
@@ -44,17 +45,17 @@ void CreatBiTree(BiTree *T){
             exit(1);
         }
         
-        /* (*T)->data = ch;    //生成结点 */
+        (*T)->data = ch;    //生成结点
         CreatBiTree(&(*T)->lchild); //左子树
-        (*T)->data = ch;                                                                                                                                 
-        printf("%c\n",(*T)->data);
+        /* (*T)->data = ch; */                                                                                                                                 
+        /* printf("%c\n",(*T)->data); */
         CreatBiTree(&(*T)->rchild); //右子树
         /* (*T)->data = ch; */
     } 
 } 
 
 
-//前序遍历二叉树
+//递归遍历二叉树
 void PreOrderTraverse(BiTree T){
     if(T == NULL){
         return;
