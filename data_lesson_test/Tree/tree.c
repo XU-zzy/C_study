@@ -5,17 +5,17 @@
 #define MAXSIZE 100
 
 //树结点
-typedef struct Binode{
+typedef struct Bitnode{
     char data;
     int ceng;
     int flag;
-    struct Binode *lchild;
-    struct Binode *rchild;
+    struct Bitnode *lchild;
+    struct Bitnode *rchild;
 }Bitnode,*BiTree;
  
 //链栈结点
 typedef struct stack{
-    struct Binode ch;                                                 
+    struct Bitnode ch;                                                 
     struct stack *next;
 }Node;
 
@@ -52,7 +52,7 @@ void Pop(Stack S){
 }
 
 //入栈
-void Push(Stack S,struct Binode c){
+void Push(Stack S,struct Bitnode c){
     Stack temp = (Node*)malloc(sizeof(Node));
     temp->ch = c;
     temp->next = S->next;
@@ -102,7 +102,7 @@ Queue InitQueue(){
 }
 
 //添加元素
-void EnterQueue(Queue q,struct Binode c){
+void EnterQueue(Queue q,struct Bitnode c){
     
 
     Queue tmp = q;
@@ -277,7 +277,7 @@ void Oder_qian_F(BiTree T){
     }
 }
 
-//中序非递归
+//非递归中序遍历
 void Oder_zhong_F(BiTree T){
     Stack S = InitStack();
     BiTree p = T;
@@ -341,7 +341,9 @@ void Oder_ceng(BiTree T){
 
 char str_qian[100];
 char str_zhong[100];
-BiTree Creat_Tree_by_qian_zhong(char *qian,char *hou,int len_qian){
+char str_hou[100];
+//按照前序和中序遍历结果来创建二叉树
+BiTree Creat_Tree_by_qian_zhong(char *qian,char *zhong,int len_qian){
     if(!len_qian){
         return NULL;
     }
@@ -351,30 +353,145 @@ BiTree Creat_Tree_by_qian_zhong(char *qian,char *hou,int len_qian){
     T->data = qian[0];
     
     //在中序中找根
-    char *p = strchr(hou,qian[0]);
-
+    char *p = strchr(zhong,qian[0]);
 
     //左子树长度
-    int len = p - hou;
+    int len = p - zhong;
 
     //开始创建
-    T->lchild = Creat_Tree_by_qian_zhong(qian + 1,hou,len);
-    T->rchild = Creat_Tree_by_qian_zhong(qian + len + 1,p + 1,len_qian - len - 1);
+    T->lchild = Creat_Tree_by_qian_zhong(qian + 1,zhong,len);
+    T->rchild = Creat_Tree_by_qian_zhong(qian + 1 + len,p + 1,len_qian - len - 1);
 
     return T;
 }
 
+//按照中序和前序遍历结果来创建二叉树
+BiTree Creat_Tree_by_zhong_hou(char *hou,char *zhong,int len_hou){
+    if(!len_hou){
+        return NULL;
+    }
+    
+    BiTree T = (BiTree)malloc(sizeof(Bitnode));
+    T->data = hou[len_hou-1];
+    
+    /* printf("%c\n",T->data); */
+    /* getchar(); */
+    //在中序中寻找根
+    char *p = strchr(zhong,hou[len_hou - 1]);
+
+    //计算左子树长度
+    int len = p - zhong;
+
+    //开始创建
+    T->lchild = Creat_Tree_by_zhong_hou(hou,zhong,len);
+    T->rchild = Creat_Tree_by_zhong_hou(hou + len,p + 1,len_hou - len - 1);
+
+    return T;
+}
+
+void swap(BiTree *l,BiTree *r){
+    BiTree tmp;
+    tmp = *l;
+    *l = *r;
+    *r = tmp;
+}
+
+//交换左右子树
+BiTree ChangeLeftRightChild(BiTree T){
+    if(T == NULL){
+        return NULL;
+    }
+    
+    //交换指针
+    swap(&(T->lchild),&(T->rchild));
+
+    ChangeLeftRightChild(T->lchild);
+    ChangeLeftRightChild(T->rchild);
+    return T;
+}
+
+//寻找共同祖先
+BiTree Get_Same_Parent(BiTree T,BiTree node_1,BiTree node_2){
+
+    if(T == NULL || node_1 == NULL || node_2 == NULL){
+        return NULL;
+    }
+    
+    if(T->data == node_1->data || T->data == node_2->data){
+        return T;
+    }
+
+    BiTree left = Get_Same_Parent(T->lchild,node_1,node_2);
+    BiTree right = Get_Same_Parent(T->rchild,node_1,node_2);
+
+    if(left != NULL && right != NULL){
+        return T;
+    }
+
+    if(left == NULL){
+        if(right != NULL)
+        printf("right %c\n",right->data);
+        return right;
+    }else{
+        if(left != NULL)
+        printf("left %c\n",left->data);
+        return left;
+    }
+}
+
 int main(){
     BiTree T;
-    //层数
-    /* int num = 0; */
-    /* CreatTree(&T,num); */
     
-    //按照前序和中序遍历序列创建二叉树    
+    //创建一个二叉树
+    //层数
+    int num = 0;
+    CreatTree(&T,num);
+    
+    getchar();
+    //寻找最近共同祖先
+    BiTree node_1 = (BiTree)malloc(sizeof(Bitnode));
+    BiTree node_2 = (BiTree)malloc(sizeof(Bitnode));
+    
+    char ch,a[10];
+    int i = 0;
+    while((ch = getchar()) != '\n'){
+        if(ch == ' '){
+            continue;
+        }
+        a[i] = ch;
+        i++;
+    }
+    node_1->data = a[0];
+    node_2->data = a[2];
+
+    BiTree parent = Get_Same_Parent(T,node_1,node_2);
+    printf("sss\n");
+    /* getchar(); */
+    if(parent != NULL)
+    printf("%c\n",parent->data);
+
+    /*
+    //交换左右子树
+    T = ChangeLeftRightChild(T);
+    for(int i = 1;i < 4;i++){
+        print_tree(T,i);
+        printf("\n");
+    }
+    */
+
+    /*
+    //按照前序和中序遍历序列创建二叉树
     scanf("%s%s",str_qian,str_zhong);
     T = Creat_Tree_by_qian_zhong(str_qian,str_zhong,strlen(str_qian));
     print_tree(T,3);
     printf("\n");
+    */
+    //按照中序和后序遍历序列创建二叉树
+    /*scanf("%s%s",str_zhong,str_hou);
+    T = Creat_Tree_by_zhong_hou(str_hou,str_zhong,strlen(str_hou));
+    print_tree(T,1);    
+    printf("\n");
+    */
 
     //树状打印
     /* int h = 1; */
