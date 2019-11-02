@@ -96,24 +96,25 @@ void print_stack(Stack S){
     }
 }
 
-//倒序打印栈                                                                                                              
+//倒序打印栈
 void print_stack_t(Stack S){
-    Stack t = S;                                                                                                                                         
-    char str[MAXSIZE];                                                                                                    
-    int i = 0;                                                                                                            
-    while(t){                                                                                                             
-        str[i++] = t->ch.data;                                                                                            
-        t = t->next;                                                                                                      
-    }                                                                                                                     
-                                                                                                                          
-    int j = i - 1;                                                                                                        
-    printf("%c:",str[1]);                                                                                                 
-                                                                                                                          
-    while(j > 1){                                                                                                         
-        printf("%c",str[j--]);                                                                                            
-    }                                                                                                                     
-    printf("\n");                                                                                                         
-} 
+    Stack t = S;
+    char str[MAXSIZE];
+    int i = 0;
+    while(t){
+        str[i++] = t->ch.data;
+        t = t->next;
+    }
+
+    int j = i - 1;
+    printf("%c:",str[1]);
+
+    while(j > 1){
+        printf("%c",str[j--]);
+    }
+    printf("\n");
+}
+
 
 //=========================================================
 //创建队列
@@ -164,7 +165,7 @@ void print_Queue(Queue q){
 
 //=========================================================
 
-//创建树
+//根据扩展先序序列创建树
 void CreatTree(BiTree *T,int num){
     char ch;
     //输入结点
@@ -333,7 +334,7 @@ void Oder_zhong_F(BiTree T){
 void Oder_hou_F(BiTree T){
     Stack S = InitStack();
     BiTree p = T;
-    BiTree q = NULL;
+    BiTree q = T;
     
     while(p != NULL || !StackEmpty(S)){
         //先左子树全部入栈
@@ -403,7 +404,7 @@ BiTree Creat_Tree_by_qian_zhong(char *qian,char *zhong,int len_qian){
     return T;
 }
 
-//按照中序和前序遍历结果来创建二叉树
+//按照中序和后序遍历结果来创建二叉树
 BiTree Creat_Tree_by_zhong_hou(char *hou,char *zhong,int len_hou){
     if(!len_hou){
         return NULL;
@@ -477,7 +478,7 @@ BiTree Get_Same_Parent(BiTree T,BiTree node_1,BiTree node_2){
 }
 
 //寻找叶子结点到根结点的路径
-void find_leaves_road(BiTree T){ 
+void find_leaves_road(BiTree T){
     Stack S = InitStack();
     BiTree t = T;
     BiTree q = T;
@@ -486,7 +487,7 @@ void find_leaves_road(BiTree T){
         while(t != NULL){
             Push(S,*t);
             t = t->lchild;
-        }   
+        }
 
         if(!StackEmpty(S)){
             t = Findhead(S);
@@ -500,19 +501,24 @@ void find_leaves_road(BiTree T){
                 Pop(S);
             }else{
                 t = t->rchild;
-            }   
-        }   
-    }   
+            }
+        }
+    }
 }
 
 int main(){
     BiTree T;
+    
+    
     
     //根据扩展先序序列创建一个二叉树
     //层数
     int num = 0;
     CreatTree(&T,num);
     
+    /* find_leaves_road(T); */
+    
+
     /*
     //寻找最近共同祖先
     getchar();
@@ -533,7 +539,8 @@ int main(){
 
     BiTree parent = Get_Same_Parent(T,node_1,node_2);
     if(parent != NULL)
-    printf("%c\n",parent->data);  */
+    printf("%c\n",parent->data);  
+    */
 
     /*
     //交换左右子树
@@ -541,32 +548,38 @@ int main(){
     for(int i = 1;i < 4;i++){
         print_tree(T,i);
         printf("\n");
-    }  */
+    }
+    */
 
     /*
     //按照前序和中序遍历序列创建二叉树
     scanf("%s%s",str_qian,str_zhong);
     T = Creat_Tree_by_qian_zhong(str_qian,str_zhong,strlen(str_qian));
     print_tree(T,3);
-    printf("\n"); */
+    printf("\n");
+    */
 
     //按照中序和后序遍历序列创建二叉树
     /* scanf("%s%s",str_zhong,str_hou);
        T = Creat_Tree_by_zhong_hou(str_hou,str_zhong,strlen(str_hou));
        print_tree(T,1);    
-       printf("\n"); */
+       printf("\n");
+    */
 
     //树状打印
-    /* int h = 1; 
-      print_by_tree(T,h); */
+     int h = 1; 
+      print_by_tree(T,h);
+    
 
     //统计结点
     /* PreOrder(T); 
-       printf("%d %d %d\n",Count_0,Count_1,Count_2); */
+       printf("%d %d %d\n",Count_0,Count_1,Count_2);
+    */ 
 
     //中序输出叶子
     /* InOrder(T); 
-       printf("\n"); */
+       printf("\n");
+    */
     
     //打印树
     /*
@@ -574,32 +587,39 @@ int main(){
     for(i = 1;i < 4;i++){
         print_tree(T,i);
         printf("\n");
-    }*/
+    }
+    */
 
     //非递归前序遍历
     /* Oder_qian_F(T); 
-       printf("\n"); */
+       printf("\n"); 
+    */
     
     //非递归中序遍历
     /* Oder_zhong_F(T); 
-       printf("\n"); */
+       printf("\n"); 
+    */
 
     //非递归后序遍历
-     /* Oder_hou_F(T); */ 
-       /* printf("\n"); */ 
+    /* Oder_hou_F(T); */ 
+    /* printf("\n"); */ 
+    
 
     //层序遍历
     /* Oder_ceng(T); 
-       printf("\n"); */
+       printf("\n"); 
+    */
     
     //输出结点和其所在层
     /* print_tree(T,4); 
-       printf("\n"); */
+       printf("\n"); 
+    */
 
     //计算某层叶子结点个数
     /* scanf("%d",&quesion);
        print_tree(T,5);
-       printf("%d\n",ans); */
+       printf("%d\n",ans); 
+    */
 
     return 0;
 }

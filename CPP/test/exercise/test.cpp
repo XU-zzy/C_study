@@ -10,7 +10,7 @@ vector<int> num_2(num_1 + 2,num_1 + 10);
 int main(){
     
     for(auto i = begin(num_2);i != end(num_2);i++){
-        cout << *i << endl;
+         cout << *i << endl;
     }
     
     /* auto num_3 = num_1; */
