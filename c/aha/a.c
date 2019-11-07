@@ -1,3 +1,5 @@
+
+
 //从小向大排序
 #include<stdio.h>
 #include<stdlib.h>
