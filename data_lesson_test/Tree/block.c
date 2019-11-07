@@ -9,6 +9,8 @@ typedef struct Bitnode{
     char data;
     int ceng;
     int flag;
+    int ltag;
+    int rtag;
     struct Bitnode *lchild;
     struct Bitnode *rchild;
 }Bitnode,*BiTree;
@@ -185,6 +187,10 @@ void CreatTree(BiTree *T,int num){
         (*T)->ceng = ++num;
         //某种神秘的标记
         (*T)->flag = 0;
+        //前驱线索
+        (*T)->ltag = 0;
+        //后驱线索
+        (*T)->rtag = 0;
         //开始创建
         CreatTree(&(*T)->lchild,num);
         CreatTree(&(*T)->rchild,num);
@@ -503,6 +509,24 @@ void find_leaves_road(BiTree T){
                 t = t->rchild;
             }
         }
+    }
+}
+
+BiTree pre = NULL;
+//二叉树线索化
+void InTreading(BiTree p){
+    if(p){
+        InTreading(p->lchild);
+        if(!p->lchild){
+            p->ltag = 1;
+            p->lchild = pre;
+        }
+        if(pre && !p->rchild){
+            pre->rtag = 1;
+            pre->rchild = p;
+        }
+        pre = p;
+        InTreading(p->rchild);
     }
 }
 
