@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
- 
+
 struct GLNode{
 	int tag;        //标识域
 	union{
