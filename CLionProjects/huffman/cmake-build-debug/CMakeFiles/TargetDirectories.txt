@@ -1,3 +1,3 @@
-/home/zzy/CLionProjects/huffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zzy/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir
-/home/zzy/CLionProjects/huffman/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir
+/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/edit_cache.dir

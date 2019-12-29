@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zzy/CLionProjects/huffman/HuffmanCoding.cpp" "/home/zzy/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanCoding.cpp.o"
-  "/home/zzy/CLionProjects/huffman/HuffmanTree.cpp" "/home/zzy/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanTree.cpp.o"
-  "/home/zzy/CLionProjects/huffman/main.cpp" "/home/zzy/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/main.cpp.o"
+  "/home/zzy/Study/CLionProjects/huffman/HuffmanCoding.cpp" "/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanCoding.cpp.o"
+  "/home/zzy/Study/CLionProjects/huffman/HuffmanTree.cpp" "/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanTree.cpp.o"
+  "/home/zzy/Study/CLionProjects/huffman/main.cpp" "/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
