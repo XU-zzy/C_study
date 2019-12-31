@@ -13,7 +13,7 @@
 struct StackNode{
 public:
 
-    StackNode(const unsigned int num_t = 0, StackNode *nextval = NULL);
+    StackNode(const unsigned int &num_t, StackNode *nextval = NULL);
 
     StackNode(StackNode *nextval = NULL);
 
@@ -32,7 +32,7 @@ struct LinkStack{
     };
     bool clear();
 
-    bool push(const unsigned int value_1);
+    bool push(const unsigned int &value_1);
     bool pop(unsigned int &value_2);
 };
 
@@ -51,7 +51,7 @@ public:
 
 class HuffmanCoding {
 private:
-    OrList *List;       //有序表
+    OrList *List,*List_t;       //有序表
     HuffmanTree *Tree;  //哈夫曼树
     Buffer  buffer;     //缓冲区
     Save save;          //临时存储叶子区
@@ -59,7 +59,7 @@ private:
     FILE *TargetFile;   //目标文件
     unsigned LeafNodeNum;       //所需要建立的叶子结点的个数
     unsigned long int total;    //要进行编码的文件总字节数
-    unsigned long int ch[257];  //原文件内ASCII码对应数组下标的值是起权值
+    unsigned long int ch[258];  //原文件内ASCII码对应数组下标的值是起权值
 public:
     void BulidOrList();     //建立有序表
     void read_OrList();     //导出有序表

@@ -10,7 +10,7 @@ StackNode::StackNode(StackNode *nextval) {
     next = nextval;
 }
 
-StackNode::StackNode(const unsigned int num_t, StackNode *nextval) {
+StackNode::StackNode(const unsigned int &num_t, StackNode *nextval) {
     num = num_t;
     next = nextval;
 }
@@ -23,7 +23,7 @@ LinkStack::LinkStack() {
 
 //删除栈
 bool LinkStack::clear() {
-    while(!top){
+    while(top){
         StackNode *temp = top;
         top = top->next;
         delete temp;
@@ -33,7 +33,7 @@ bool LinkStack::clear() {
 }
 
 //入栈
-bool LinkStack::push(const unsigned int value_1) {
+bool LinkStack::push(const unsigned int &value_1) {
     top = new StackNode(value_1,top);
     ++LinkStackSize;
     return true;
@@ -72,49 +72,49 @@ void HuffmanCoding::BulidOrList() {
     //扫描文件，获得权值数组
     total = 0;
     while(!feof(OrginalFile)){
-//        std::cout << tempchar;
         ++ch[tempchar];
         ++total;
         tempchar = fgetc(OrginalFile);
     }
-//    for(int i = 0;i < 257;i++){
-//        for(int j = 0;j < 10;j++){
-//            std::cout << i + " " + ch[i] << std::endl;
+//    std::cout << ch[1] << std::endl;
+
+//    for(int i = 0,j = 0;i < 257;i++,j++){
+//        if(j == 10){
+//            j = 0;
+//            printf("\n");
 //        }
-//        std::cout << std::endl;
+//            printf("%d  ",ch[i]);
 //    }
 //    getchar();
+
     //计算所需要建立的叶子结点的个数
     for(int i = 0;i < 257;i++){
         if(ch[i]){
             ++LeafNodeNum;
         }
     }
+
     //文件头写入字符总数和叶子结点总数
     fwrite(&total,sizeof(unsigned long int),1,TargetFile);
     fwrite(&LeafNodeNum, sizeof(unsigned int),1,TargetFile);
 
     //创建有序表并将其写入目标文件
     List = new OrList(LeafNodeNum);
+    List_t = new OrList(LeafNodeNum);
     HuffmanTree *temp;
 
-//    for(unsigned int i = 0;i < 257;i++){
-//        std::cout << "Loading....." << std::endl;
-//
-//        if(ch[i] > 0){
-//            std::cout << "22222222222222222Loading....." << std::endl;
-//
+    for(int i = 0;i < 257;i++){
+//        std::cout << i + " " + ch[i] << std::endl;
+        if(ch[i] > 0){
 //            unsigned char c = 'c';
-//            std::cout << i + "  " + ch[i] << std::endl;
-//            temp = new HuffmanTree(c,ch[i]);
-//            std::cout << "111111111111Loading....." << std::endl;
-//
-//            List->InsertNode(temp);
-//            save.ch = i;
-//            save.val = ch[i];
-//            fwrite(&save,sizeof(Save),1,TargetFile);
-//        }
-//    }
+            temp = new HuffmanTree(i,ch[i]);
+            List->InsertNode(temp);
+            save.ch = i;
+            save.val = ch[i];
+            printf("%c %d\n",temp->value,temp->weight);
+            fwrite(&save,sizeof(save),1,TargetFile);
+        }
+    }
 }
 
 //进行压缩
@@ -148,31 +148,42 @@ void HuffmanCoding::code() {
 
     //建立有序表，并将相关信息写入文件头
     BulidOrList();
-//    std::cout << "Loading....." << std::endl;
 
     //建立哈夫曼树
-    HuffmanTree tree;
-    Tree = Tree->BuildHuffmanTree(List);
+    HuffmanTree *tree;
+
+    Tree = Tree->BuildHuffmanTree(List,List_t);
+
+
 
     //编码
     rewind(OrginalFile);
-    unsigned char tempchar = fgetc(OrginalFile);
     unsigned int tempint;
     HuffmanTree* temptreenode;
     Stack = new LinkStack();
     buffer.ClearBuffer();
+    std::cout << List->OrListArray[0]->value << std::endl;
+//    printf("%c\n",List->OrListArray[4]->value);
+    unsigned char tempchar = fgetc(OrginalFile);
     while(!feof(OrginalFile)){
+
         //搜索匹配
-        for(int i = 0;i < List->GetListLength();i++){
-            if(tempchar == List->OrListArray[i]->value){
+        for(int i = 0;i < List_t->GetListLength();i++){
+//            std::cout << List->OrListArray[i]->value + " " + tempchar<< std::endl;
+//            std::cout << "Loading....1." << std::endl;
+            if(tempchar == List_t->OrListArray[i]->value){
                 Stack->clear();
-                temptreenode = List->OrListArray[i]->root;
+                temptreenode = List_t->OrListArray[i];
                 //编写
-                while(temptreenode != Tree->root){
+                while(temptreenode != Tree){
+                    std::cout << "Loading....13." << std::endl;
                     Stack->push(temptreenode->LorRChild);
+                    std::cout << "Loading....1." << std::endl;
                     temptreenode = temptreenode->Parent;
+                    std::cout << "Loading....12." << std::endl;
                 }
                 while(Stack->pop(tempint)){
+//                    std::cout << "Loading....1." << std::endl;
                     code_write(tempint);
                 }
                 break;
@@ -180,6 +191,7 @@ void HuffmanCoding::code() {
         }
         tempchar = getc(OrginalFile);
     }
+
 
     //最后缓存中存在不足8位的数据
     if(buffer.bit){
@@ -193,12 +205,12 @@ void HuffmanCoding::code() {
     fseek(OrginalFile,0L,SEEK_END);
     double size_OrginalFile = ftell(OrginalFile);
     fseek(TargetFile,0L,SEEK_END);
-    double size_TargetFile = ftell(OrginalFile);
+    double size_TargetFile = ftell(TargetFile);
 
     std::cout << "Compression ratio(Source/compressed files):" << (size_OrginalFile/size_TargetFile) << std::endl;
 
-    delete Stack;
-    delete List;
+//    delete Stack;
+//    delete List;
     fclose(OrginalFile);
     fclose(TargetFile);
 }

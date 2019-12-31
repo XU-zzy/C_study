@@ -33,29 +33,30 @@ bool OrList::CompWeight(HuffmanTree *l, HuffmanTree *r) {
 
 //插入表结点
 bool OrList::InsertNode(HuffmanTree *node) {
-    if(ListSize >= MaxSize){
+    if(ListSize == MaxSize){
         return false;
     }
     HuffmanTree *temp;
     //寻找插入位置
     for(fence = 0;fence < ListSize;fence++){
         temp = OrListArray[fence];
-        if(!CompWeight(temp,OrListArray[fence+1])){
-            for(int i = ListSize;i > fence;i--){
-                OrListArray[i] = OrListArray[i-1];
-            }
-            ++ListSize;
-            OrListArray[fence] = temp;
-            return true;
+        if(CompWeight(temp,node)){
+            break;
         }
     }
-    return false;
+    for(int i = ListSize;i > fence;i--){
+        OrListArray[i] = OrListArray[i-1];
+    }
+    OrListArray[fence] = node;
+    ++ListSize;
+//    std::cout << ListSize << std::endl;
+    return true;
 }
 
 //获得一个结点并前移
 HuffmanTree* OrList::Getremove() {
     //如果是表尾，则返回
-    if(MaxSize == ListSize){
+    if(ListSize == fence){
         return NULL;
     }
 
@@ -70,30 +71,28 @@ HuffmanTree* OrList::Getremove() {
 
 //创建哈夫曼结点
 HuffmanTree::HuffmanTree() {
+//    HuffmanTree *root = new HuffmanTree;    //根结点
     weight = 0;
-    root->IsLeaf = true;
+    IsLeaf = true;
 }
 
 HuffmanTree::HuffmanTree(HuffmanTree *Lnode, HuffmanTree *Rnode) {
-    root->LChild = Lnode;
-    root->RChild = Rnode;
-    root->weight = Lnode->weight + Rnode->weight;
-    root->IsLeaf = false;
+    LChild = Lnode;
+    RChild = Rnode;
+    weight = Lnode->weight + Rnode->weight;
+    IsLeaf = false;
     Lnode->Parent = Rnode->Parent = root;
 }
 
 HuffmanTree::HuffmanTree(unsigned char value_t, unsigned int weight_t) {
-    std::cout << "444444Loading....." << std::endl;
-
     value = value_t;
-    std::cout << "３３３３３Loading....." << std::endl;
-
+//    std::cout << value << std::endl;
     weight = weight_t;
-    root->IsLeaf = true;
+    IsLeaf = true;
 }
 
 //创建哈夫曼树
-HuffmanTree* HuffmanTree::BuildHuffmanTree(OrList *List) {
+HuffmanTree* HuffmanTree::BuildHuffmanTree(OrList *List,OrList *List_t) {
     HuffmanTree *tr_1 = new HuffmanTree();
     HuffmanTree *tr_2 = new HuffmanTree();
     HuffmanTree *tr_3 = new HuffmanTree();
@@ -105,11 +104,22 @@ HuffmanTree* HuffmanTree::BuildHuffmanTree(OrList *List) {
         tr_1->LorRChild = 0;
         tr_2 = List->Getremove();
         tr_2->LorRChild = 1;
+//        std::cout << "abc" << std::endl;
 
         tr_3 = new HuffmanTree(tr_1,tr_2);
-        if(List->InsertNode(tr_3)){
-            return NULL;
+//        if(List->InsertNode(tr_3)){
+//            return NULL;
+//        }
+
+        if(tr_1->IsLeaf){
+            List_t->InsertNode(tr_1);
         }
+        if(tr_2->IsLeaf){
+            List_t->InsertNode(tr_2);
+        }
+
+        List->InsertNode(tr_3);
     }
+
     return tr_3;
 }

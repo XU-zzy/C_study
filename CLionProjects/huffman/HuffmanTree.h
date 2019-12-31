@@ -36,15 +36,15 @@ private:
 //哈夫曼树
 class HuffmanTree {
 public:
-    HuffmanTree *root = new HuffmanTree;    //根结点
-
+    HuffmanTree *root;    //根结点
+//    HuffmanTree *root;
     HuffmanTree();
     //将左右结点连到同一个结点
     HuffmanTree(HuffmanTree *Lnode,HuffmanTree *Rnode);
     //创建结点
     HuffmanTree(unsigned  char value_t,unsigned int weight_t);
     //根据有序表建立哈夫曼树
-    HuffmanTree *BuildHuffmanTree(OrList *List);
+    HuffmanTree *BuildHuffmanTree(OrList *List,OrList *List_t);
 
     unsigned int weight;    //权
 
