@@ -10,9 +10,12 @@ StackNode::StackNode(StackNode *nextval) {
     next = nextval;
 }
 
-StackNode::StackNode(const unsigned int &num_t, StackNode *nextval) {
-    num = num_t;
+StackNode::StackNode(unsigned int &num_t, StackNode *nextval) {
+    std::cout << "Loading....14." << std::endl;
+//    num = num_t;
+    std::cout << "Loading....15." << std::endl;
     next = nextval;
+    std::cout << "Loading....16." << std::endl;
 }
 
 LinkStack::LinkStack() {
@@ -20,9 +23,9 @@ LinkStack::LinkStack() {
     LinkStackSize = 0;
 }
 
-
 //删除栈
 bool LinkStack::clear() {
+
     while(top){
         StackNode *temp = top;
         top = top->next;
@@ -33,8 +36,11 @@ bool LinkStack::clear() {
 }
 
 //入栈
-bool LinkStack::push(const unsigned int &value_1) {
+bool LinkStack::push(unsigned int &value_1) {
+    std::cout << "Loading....111." << std::endl;
+
     top = new StackNode(value_1,top);
+
     ++LinkStackSize;
     return true;
 }
@@ -111,7 +117,7 @@ void HuffmanCoding::BulidOrList() {
             List->InsertNode(temp);
             save.ch = i;
             save.val = ch[i];
-            printf("%c %d\n",temp->value,temp->weight);
+//            printf("%c %d\n",temp->value,temp->weight);
             fwrite(&save,sizeof(save),1,TargetFile);
         }
     }
@@ -162,7 +168,7 @@ void HuffmanCoding::code() {
     HuffmanTree* temptreenode;
     Stack = new LinkStack();
     buffer.ClearBuffer();
-    std::cout << List->OrListArray[0]->value << std::endl;
+//    std::cout << List->OrListArray[0]->value << std::endl;
 //    printf("%c\n",List->OrListArray[4]->value);
     unsigned char tempchar = fgetc(OrginalFile);
     while(!feof(OrginalFile)){
@@ -179,9 +185,12 @@ void HuffmanCoding::code() {
                     std::cout << "Loading....13." << std::endl;
                     Stack->push(temptreenode->LorRChild);
                     std::cout << "Loading....1." << std::endl;
+                    std::cout << "Loading....2." << std::endl;
                     temptreenode = temptreenode->Parent;
                     std::cout << "Loading....12." << std::endl;
                 }
+                std::cout << "Loading....10." << std::endl;
+
                 while(Stack->pop(tempint)){
 //                    std::cout << "Loading....1." << std::endl;
                     code_write(tempint);
