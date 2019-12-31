@@ -72,18 +72,10 @@ void HuffmanCoding::BulidOrList() {
     //扫描文件，获得权值数组
     total = 0;
     while(!feof(OrginalFile)){
-//        std::cout << tempchar;
         ++ch[tempchar];
         ++total;
         tempchar = fgetc(OrginalFile);
     }
-//    for(int i = 0;i < 257;i++){
-//        for(int j = 0;j < 10;j++){
-//            std::cout << i + " " + ch[i] << std::endl;
-//        }
-//        std::cout << std::endl;
-//    }
-//    getchar();
     //计算所需要建立的叶子结点的个数
     for(int i = 0;i < 257;i++){
         if(ch[i]){
@@ -97,24 +89,15 @@ void HuffmanCoding::BulidOrList() {
     //创建有序表并将其写入目标文件
     List = new OrList(LeafNodeNum);
     HuffmanTree *temp;
-
-//    for(unsigned int i = 0;i < 257;i++){
-//        std::cout << "Loading....." << std::endl;
-//
-//        if(ch[i] > 0){
-//            std::cout << "22222222222222222Loading....." << std::endl;
-//
-//            unsigned char c = 'c';
-//            std::cout << i + "  " + ch[i] << std::endl;
-//            temp = new HuffmanTree(c,ch[i]);
-//            std::cout << "111111111111Loading....." << std::endl;
-//
-//            List->InsertNode(temp);
-//            save.ch = i;
-//            save.val = ch[i];
-//            fwrite(&save,sizeof(Save),1,TargetFile);
-//        }
-//    }
+    for(int i = 0;i < 257;i++){
+        if(ch[i]){
+            temp = new HuffmanTree(i,ch[i]);
+            List->InsertNode(temp);
+            save.ch = i;
+            save.val = ch[i];
+            fwrite(&save,sizeof(Save),1,TargetFile);
+        }
+    }
 }
 
 //进行压缩
@@ -122,23 +105,23 @@ void HuffmanCoding::code() {
     total = 0;
     LeafNodeNum = 0;
 
-    char* OrginFileName = new char[100];
-    char* TargetFileName = new char[100];
+    std::string OrginFileName;
+    std::string TargetFileName;
     std::cout << "Please input the Source FIle's Name:" << std::endl;
     std::cin >> OrginFileName;
 
-    OrginalFile = fopen(OrginFileName,"rb");
-    while(!OrginalFile/* || feof((OrginalFile))*/){
+    OrginalFile = fopen(OrginFileName.c_str(),"rb");
+
+    while(!OrginalFile || feof((OrginalFile))){
         std::cout << "Can't find the file or the file is empty!" << OrginFileName << std::endl;
         std::cout << "Please input the Source FIle's Name again:" << std::endl;
         std::cin >> OrginFileName;
-        OrginalFile = fopen(OrginFileName,"rb");
     }
 
     std::cout << "Please input the Compressed File's Name:" << std::endl;
     std::cin >> TargetFileName;
 
-    while(!(TargetFile = fopen(TargetFileName,"wb"))){
+    while(!(TargetFile = fopen(TargetFileName.c_str(),"wb"))){
         std::cout << "Creat File " << TargetFileName << "failed!" << std::endl;
         std::cout << "Please input the Compressed File's Name again:" << std::endl;
         std::cin >> TargetFileName;
@@ -148,7 +131,6 @@ void HuffmanCoding::code() {
 
     //建立有序表，并将相关信息写入文件头
     BulidOrList();
-//    std::cout << "Loading....." << std::endl;
 
     //建立哈夫曼树
     HuffmanTree tree;

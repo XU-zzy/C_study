@@ -24,6 +24,8 @@ public:
     HuffmanTree *Getremove();
     //比较俩结点的权
     bool CompWeight(HuffmanTree *l,HuffmanTree *r);
+    //插入函数
+    bool InsertNode(HuffmanTree *node);
 private:
     int MaxSize;    //最大值
     int ListSize;   //表长
@@ -45,7 +47,7 @@ public:
     HuffmanTree *BuildHuffmanTree(OrList *List);
 
     unsigned int weight;    //权
-private:
+
     unsigned char value;    //值
     unsigned int LorRChild;     //左孩子为0,右孩子为1
     HuffmanTree *LChild;    //左孩子

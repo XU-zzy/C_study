@@ -12,23 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanCoding.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanTree.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/main.cpp.o" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,14 +49,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CLionProjects/huffman/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hufman/HuffmanCoding.cpp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577620943830</updated>
-      <workItem from="1577620944887" duration="10125000" />
+      <workItem from="1577620944887" duration="12449000" />
+      <workItem from="1577684074548" duration="15666000" />
     </task>
     <servers />
   </component>
@@ -118,7 +103,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

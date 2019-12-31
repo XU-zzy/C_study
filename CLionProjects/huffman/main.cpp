@@ -2,6 +2,7 @@
 #include "HuffmanCoding.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    HuffmanCoding t;
+    t.code();
     return 0;
 }
