@@ -20,6 +20,12 @@ netdb.h
 HuffmanTree.h
 /home/zzy/Study/CLionProjects/huffman/HuffmanTree.h
 
+/home/zzy/Study/CLionProjects/huffman/HuffmanTree.cpp
+iostream
+-
+HuffmanTree.h
+/home/zzy/Study/CLionProjects/huffman/HuffmanTree.h
+
 /home/zzy/Study/CLionProjects/huffman/HuffmanTree.h
 
 /home/zzy/Study/CLionProjects/huffman/main.cpp

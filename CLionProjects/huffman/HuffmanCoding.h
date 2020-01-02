@@ -12,10 +12,10 @@
 //栈结点
 struct StackNode{
 public:
-
-    StackNode(const unsigned int &num_t, StackNode *nextval = NULL);
+    StackNode(unsigned int &num_t, StackNode *nextval = NULL);
 
     StackNode(StackNode *nextval = NULL);
+
 
     StackNode *next;
     unsigned int num;
@@ -32,7 +32,7 @@ struct LinkStack{
     };
     bool clear();
 
-    bool push(const unsigned int &value_1);
+    bool push(unsigned int &value_1);
     bool pop(unsigned int &value_2);
 };
 

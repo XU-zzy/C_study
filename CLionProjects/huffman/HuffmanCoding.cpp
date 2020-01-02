@@ -82,16 +82,6 @@ void HuffmanCoding::BulidOrList() {
         ++total;
         tempchar = fgetc(OrginalFile);
     }
-//    std::cout << ch[1] << std::endl;
-
-//    for(int i = 0,j = 0;i < 257;i++,j++){
-//        if(j == 10){
-//            j = 0;
-//            printf("\n");
-//        }
-//            printf("%d  ",ch[i]);
-//    }
-//    getchar();
 
     //计算所需要建立的叶子结点的个数
     for(int i = 0;i < 257;i++){
@@ -110,14 +100,11 @@ void HuffmanCoding::BulidOrList() {
     HuffmanTree *temp;
 
     for(int i = 0;i < 257;i++){
-//        std::cout << i + " " + ch[i] << std::endl;
         if(ch[i] > 0){
-//            unsigned char c = 'c';
             temp = new HuffmanTree(i,ch[i]);
             List->InsertNode(temp);
             save.ch = i;
             save.val = ch[i];
-//            printf("%c %d\n",temp->value,temp->weight);
             fwrite(&save,sizeof(save),1,TargetFile);
         }
     }
@@ -168,15 +155,11 @@ void HuffmanCoding::code() {
     HuffmanTree* temptreenode;
     Stack = new LinkStack();
     buffer.ClearBuffer();
-//    std::cout << List->OrListArray[0]->value << std::endl;
-//    printf("%c\n",List->OrListArray[4]->value);
     unsigned char tempchar = fgetc(OrginalFile);
     while(!feof(OrginalFile)){
 
         //搜索匹配
         for(int i = 0;i < List_t->GetListLength();i++){
-//            std::cout << List->OrListArray[i]->value + " " + tempchar<< std::endl;
-//            std::cout << "Loading....1." << std::endl;
             if(tempchar == List_t->OrListArray[i]->value){
                 Stack->clear();
                 temptreenode = List_t->OrListArray[i];
@@ -192,7 +175,6 @@ void HuffmanCoding::code() {
                 std::cout << "Loading....10." << std::endl;
 
                 while(Stack->pop(tempint)){
-//                    std::cout << "Loading....1." << std::endl;
                     code_write(tempint);
                 }
                 break;
