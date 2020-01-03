@@ -12,25 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/HuffmanCoding.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/HuffmanCoding.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/HuffmanCoding.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/HuffmanCoding.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanCoding.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanCoding.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/huffman" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/huffman" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +93,8 @@
       <workItem from="1577620944887" duration="12449000" />
       <workItem from="1577684074548" duration="32354000" />
       <workItem from="1577786785719" duration="3108000" />
-      <workItem from="1577941484368" duration="1263000" />
+      <workItem from="1577941484368" duration="1865000" />
+      <workItem from="1578028239940" duration="1268000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
