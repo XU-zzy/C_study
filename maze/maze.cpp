@@ -6,7 +6,6 @@
 #define WALL 0
 #define ROUTE 1          //墙为0，路为1
 #define VISITED 9       //该位置已经被访问 
-//
 typedef struct stack{
 	int arr[1111][2];
 	int top;
@@ -158,6 +157,7 @@ void solve(int **maze,int x,int y,int dx,int dy)
 	}
     printf("\n");
 }
+
 
 //栈操作函数
 Stack Create()
