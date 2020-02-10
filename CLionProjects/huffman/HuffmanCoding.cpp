@@ -110,10 +110,6 @@ void HuffmanCoding::BulidOrList() {
     }
 }
 
-
-
-
-
 //进行压缩
 void HuffmanCoding::code() {
     total = 0;
