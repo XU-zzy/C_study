@@ -205,3 +205,12 @@ int pop(Stack s,int *i,int *j)
 	s->top--;
 	return 1;
 }
+
+
+
+
+
+
+
+
+
