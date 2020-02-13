@@ -12,9 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_String/HuffmanCoding.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_String/HuffmanCoding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_String/HuffmanTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_String/HuffmanTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_String/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_String/my_string.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_String/my_string.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanCoding.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanCoding.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/huffman" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/huffman" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/huffman.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/cmake-build-debug/huffman.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +68,19 @@
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1VekS1LhArkKYg7mrim5gnzzHeP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hufman" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,6 +128,7 @@
       <workItem from="1578028239940" duration="1268000" />
       <workItem from="1578137371577" duration="226000" />
       <workItem from="1578406241168" duration="56000" />
+      <workItem from="1581580227209" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -131,6 +157,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/CLionProjects" />
     </ignored-roots>
@@ -138,10 +165,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="try" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578406294189">
+    <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581580415836">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1578406294189" />
+    <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1581580415836" />
+    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581580870501">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1581580870501" />
+    <state width="1868" height="250" key="GridCell.Tab.0.bottom" timestamp="1581580939591">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1868" height="250" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
+    <state width="1868" height="250" key="GridCell.Tab.0.center" timestamp="1581580939591">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1868" height="250" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
+    <state width="1868" height="250" key="GridCell.Tab.0.left" timestamp="1581580939591">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1868" height="250" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
+    <state width="1868" height="250" key="GridCell.Tab.0.right" timestamp="1581580939591">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1868" height="250" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
     <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578406267278">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

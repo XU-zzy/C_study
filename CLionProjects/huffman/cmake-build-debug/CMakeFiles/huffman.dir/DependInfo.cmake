@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zzy/Study/CLionProjects/huffman/HuffmanCoding.cpp" "/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanCoding.cpp.o"
   "/home/zzy/Study/CLionProjects/huffman/HuffmanTree.cpp" "/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanTree.cpp.o"
+  "/home/zzy/Study/CLionProjects/my_String/my_string.cpp" "/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/home/zzy/Study/CLionProjects/my_String/my_string.cpp.o"
   "/home/zzy/Study/CLionProjects/huffman/main.cpp" "/home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/huffman.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

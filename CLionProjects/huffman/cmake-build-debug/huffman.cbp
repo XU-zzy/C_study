@@ -99,6 +99,12 @@
 		<Unit filename="/home/zzy/Study/CLionProjects/huffman/main.cpp">
 			<Option target="huffman"/>
 		</Unit>
+		<Unit filename="/home/zzy/Study/CLionProjects/my_String/my_string.cpp">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/zzy/Study/CLionProjects/my_String/my_string.h">
+			<Option target="huffman"/>
+		</Unit>
 		<Unit filename="/home/zzy/Study/CLionProjects/huffman/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

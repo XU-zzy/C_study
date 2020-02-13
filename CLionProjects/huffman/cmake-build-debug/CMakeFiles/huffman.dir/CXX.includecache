@@ -20,12 +20,6 @@ netdb.h
 HuffmanTree.h
 /home/zzy/Study/CLionProjects/huffman/HuffmanTree.h
 
-/home/zzy/Study/CLionProjects/huffman/HuffmanTree.cpp
-iostream
--
-HuffmanTree.h
-/home/zzy/Study/CLionProjects/huffman/HuffmanTree.h
-
 /home/zzy/Study/CLionProjects/huffman/HuffmanTree.h
 
 /home/zzy/Study/CLionProjects/huffman/main.cpp
@@ -33,4 +27,10 @@ iostream
 -
 HuffmanCoding.h
 /home/zzy/Study/CLionProjects/huffman/HuffmanCoding.h
+
+/home/zzy/Study/CLionProjects/my_String/my_string.cpp
+my_string.h
+/home/zzy/Study/CLionProjects/my_String/my_string.h
+
+/home/zzy/Study/CLionProjects/my_String/my_string.h
 

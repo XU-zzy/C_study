@@ -48,10 +48,10 @@ RM = /home/zzy/clion-2019.2.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zzy/Study/CLionProjects/huffman
+CMAKE_SOURCE_DIR = /home/zzy/Study/CLionProjects/my_string
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zzy/Study/CLionProjects/huffman/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zzy/Study/CLionProjects/my_string/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles /home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy/Study/CLionProjects/my_string/cmake-build-debug/CMakeFiles /home/zzy/Study/CLionProjects/my_string/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy/Study/CLionProjects/huffman/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy/Study/CLionProjects/my_string/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,98 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named huffman
+# Target rules for targets named my_string
 
 # Build rule for target.
-huffman: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 huffman
-.PHONY : huffman
+my_string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_string
+.PHONY : my_string
 
 # fast build rule for target.
-huffman/fast:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/build
-.PHONY : huffman/fast
-
-HuffmanCoding.o: HuffmanCoding.cpp.o
-
-.PHONY : HuffmanCoding.o
-
-# target to build an object file
-HuffmanCoding.cpp.o:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanCoding.cpp.o
-.PHONY : HuffmanCoding.cpp.o
-
-HuffmanCoding.i: HuffmanCoding.cpp.i
-
-.PHONY : HuffmanCoding.i
-
-# target to preprocess a source file
-HuffmanCoding.cpp.i:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanCoding.cpp.i
-.PHONY : HuffmanCoding.cpp.i
-
-HuffmanCoding.s: HuffmanCoding.cpp.s
-
-.PHONY : HuffmanCoding.s
-
-# target to generate assembly for a file
-HuffmanCoding.cpp.s:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanCoding.cpp.s
-.PHONY : HuffmanCoding.cpp.s
-
-HuffmanTree.o: HuffmanTree.cpp.o
-
-.PHONY : HuffmanTree.o
-
-# target to build an object file
-HuffmanTree.cpp.o:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanTree.cpp.o
-.PHONY : HuffmanTree.cpp.o
-
-HuffmanTree.i: HuffmanTree.cpp.i
-
-.PHONY : HuffmanTree.i
-
-# target to preprocess a source file
-HuffmanTree.cpp.i:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanTree.cpp.i
-.PHONY : HuffmanTree.cpp.i
-
-HuffmanTree.s: HuffmanTree.cpp.s
-
-.PHONY : HuffmanTree.s
-
-# target to generate assembly for a file
-HuffmanTree.cpp.s:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanTree.cpp.s
-.PHONY : HuffmanTree.cpp.s
-
-home/zzy/Study/CLionProjects/my_String/my_string.o: home/zzy/Study/CLionProjects/my_String/my_string.cpp.o
-
-.PHONY : home/zzy/Study/CLionProjects/my_String/my_string.o
-
-# target to build an object file
-home/zzy/Study/CLionProjects/my_String/my_string.cpp.o:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/home/zzy/Study/CLionProjects/my_String/my_string.cpp.o
-.PHONY : home/zzy/Study/CLionProjects/my_String/my_string.cpp.o
-
-home/zzy/Study/CLionProjects/my_String/my_string.i: home/zzy/Study/CLionProjects/my_String/my_string.cpp.i
-
-.PHONY : home/zzy/Study/CLionProjects/my_String/my_string.i
-
-# target to preprocess a source file
-home/zzy/Study/CLionProjects/my_String/my_string.cpp.i:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/home/zzy/Study/CLionProjects/my_String/my_string.cpp.i
-.PHONY : home/zzy/Study/CLionProjects/my_String/my_string.cpp.i
-
-home/zzy/Study/CLionProjects/my_String/my_string.s: home/zzy/Study/CLionProjects/my_String/my_string.cpp.s
-
-.PHONY : home/zzy/Study/CLionProjects/my_String/my_string.s
-
-# target to generate assembly for a file
-home/zzy/Study/CLionProjects/my_String/my_string.cpp.s:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/home/zzy/Study/CLionProjects/my_String/my_string.cpp.s
-.PHONY : home/zzy/Study/CLionProjects/my_String/my_string.cpp.s
+my_string/fast:
+	$(MAKE) -f CMakeFiles/my_string.dir/build.make CMakeFiles/my_string.dir/build
+.PHONY : my_string/fast
 
 main.o: main.cpp.o
 
@@ -210,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/my_string.dir/build.make CMakeFiles/my_string.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -219,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/my_string.dir/build.make CMakeFiles/my_string.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -228,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/my_string.dir/build.make CMakeFiles/my_string.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -238,17 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... huffman"
+	@echo "... my_string"
 	@echo "... edit_cache"
-	@echo "... HuffmanCoding.o"
-	@echo "... HuffmanCoding.i"
-	@echo "... HuffmanCoding.s"
-	@echo "... HuffmanTree.o"
-	@echo "... HuffmanTree.i"
-	@echo "... HuffmanTree.s"
-	@echo "... home/zzy/Study/CLionProjects/my_String/my_string.o"
-	@echo "... home/zzy/Study/CLionProjects/my_String/my_string.i"
-	@echo "... home/zzy/Study/CLionProjects/my_String/my_string.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

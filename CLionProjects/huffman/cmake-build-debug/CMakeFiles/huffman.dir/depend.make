@@ -8,6 +8,9 @@ CMakeFiles/huffman.dir/HuffmanCoding.cpp.o: ../HuffmanTree.h
 CMakeFiles/huffman.dir/HuffmanTree.cpp.o: ../HuffmanTree.cpp
 CMakeFiles/huffman.dir/HuffmanTree.cpp.o: ../HuffmanTree.h
 
+CMakeFiles/huffman.dir/home/zzy/Study/CLionProjects/my_String/my_string.cpp.o: /home/zzy/Study/CLionProjects/my_String/my_string.cpp
+CMakeFiles/huffman.dir/home/zzy/Study/CLionProjects/my_String/my_string.cpp.o: /home/zzy/Study/CLionProjects/my_String/my_string.h
+
 CMakeFiles/huffman.dir/main.cpp.o: ../HuffmanCoding.h
 CMakeFiles/huffman.dir/main.cpp.o: ../HuffmanTree.h
 CMakeFiles/huffman.dir/main.cpp.o: ../main.cpp
