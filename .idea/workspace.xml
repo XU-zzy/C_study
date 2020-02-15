@@ -12,9 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
-      <change afterPath="$PROJECT_DIR$/Function/For_gxy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Function/二进制转换函数.c" beforeDir="false" afterPath="$PROJECT_DIR$/Function/二进制转换函数.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function/For_gxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Function/For_gxy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aaa" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -117,7 +116,7 @@
       <workItem from="1578406241168" duration="56000" />
       <workItem from="1581580227209" duration="712000" />
       <workItem from="1581581135284" duration="728000" />
-      <workItem from="1581676907311" duration="1512000" />
+      <workItem from="1581676907311" duration="7440000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -158,10 +157,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1581580415836" />
-    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581580870501">
+    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581745561296">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1581580870501" />
+    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1581745561296" />
     <state width="1868" height="250" key="GridCell.Tab.0.bottom" timestamp="1581580939591">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
