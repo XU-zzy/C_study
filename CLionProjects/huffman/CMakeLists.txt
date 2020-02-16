@@ -3,4 +3,4 @@ project(huffman)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(huffman main.cpp HuffmanTree.cpp HuffmanTree.h HuffmanCoding.cpp HuffmanCoding.h ../my_String/my_string.cpp ../my_String/my_string.h)
+add_executable(huffman main.cpp HuffmanTree.cpp HuffmanTree.h HuffmanCoding.cpp HuffmanCoding.h ../my_String/my_string.cpp ../my_String/my_string.h ../my_string/My_string.cpp ../my_string/My_string.h)

@@ -12,8 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_string/My_string.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLionProjects/my_string/My_string.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Function/For_gxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Function/For_gxy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +119,7 @@
       <workItem from="1581580227209" duration="712000" />
       <workItem from="1581581135284" duration="728000" />
       <workItem from="1581676907311" duration="7440000" />
+      <workItem from="1581852529279" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
