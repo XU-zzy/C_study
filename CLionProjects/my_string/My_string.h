@@ -14,7 +14,6 @@ class My_string {
 public:
     My_string(int str_len);
     My_string(const char *str);
-    My_string(int str_len,char c);
     ~My_string();
 
 private:
