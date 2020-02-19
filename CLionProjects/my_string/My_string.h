@@ -16,6 +16,8 @@ public:
     My_string(const char *str);
     ~My_string();
 
+
+
 private:
     int str_len;
     char *str;

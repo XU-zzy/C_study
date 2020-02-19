@@ -20,3 +20,5 @@ My_string::My_string(const char *str) {
         this->str = new char[this->str_len + 1];
     }
 }
+
+
