@@ -14,11 +14,6 @@ My_string::My_string(int str_len) {
     memset(this->str,0,this->str_len + 1);
 }
 
-My_string::My_string(const char *str) {
-    if(*str == NULL){
-        this->str_len = 0;
-        this->str = new char[this->str_len + 1];
-    }
-}
+
 
 

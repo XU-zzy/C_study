@@ -13,8 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLionProjects/my_string/My_string.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/my_string/My_string.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLionProjects/my_string/My_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/my_string/My_string.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/my_string/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/my_string/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +122,7 @@
       <workItem from="1581920005978" duration="2263000" />
       <workItem from="1582110556124" duration="1660000" />
       <workItem from="1582173308805" duration="692000" />
+      <workItem from="1582258472574" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -186,9 +187,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1581678199291" />
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582173312331">
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582258475942">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582173312331" />
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582258475942" />
   </component>
 </project>
