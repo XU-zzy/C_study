@@ -61,10 +61,10 @@ private:
     unsigned long int total;    //要进行编码的文件总字节数
     unsigned long int ch[258];  //原文件内ASCII码对应数组下标的值是起权值
 public:
-    void BulidOrList();     //建立有序表
     void read_OrList();     //导出有序表
     void code();            //压缩
     void decode();          //解压缩
+    void BulidOrList();     //建立有序表
     void code_write(unsigned int ch);           //通过位操作向文件中写入编码
     unsigned int decode_read();            //读出编码
     LinkStack *Stack;   //栈
