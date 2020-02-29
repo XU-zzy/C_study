@@ -16,4 +16,7 @@ int main(){
     cout << "The value " << val  << (result == num.cend() ? " is not present" : " is present" ) << endl;
     cout << accumulate(num.cbegin(),num.cend(),50) << endl;
     return 0;
+
+
+
 }
