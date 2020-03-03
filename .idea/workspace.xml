@@ -122,6 +122,8 @@
       <workItem from="1582173308805" duration="692000" />
       <workItem from="1582258472574" duration="1950000" />
       <workItem from="1582342985067" duration="5931000" />
+      <workItem from="1583234717992" duration="1797000" />
+      <workItem from="1583245788930" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -186,9 +188,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1581678199291" />
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582342987806">
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583246442524">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582342987806" />
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583246442524" />
   </component>
 </project>
