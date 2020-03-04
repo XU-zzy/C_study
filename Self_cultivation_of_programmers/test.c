@@ -16,12 +16,12 @@ void func1( int i ){
 
 int main(void){
     static int static_var = 85;
-    static int static_var_2;
-    static int static_var_3 = 0;
+    /* static int static_var_2; */
+    /* static int static_var_3 = 0; */
 
     int a = 1;
     int b;
-    func1(static_var + static_var_2 + a + b);
+    /* func1(static_var + static_var_2 + a + b); */
     printf("_binary_test_png_start %#lx\n",(unsigned long)&_binary_zzy_1_png_start);
     printf("_binary_test_png_end %#lx\n",(unsigned long)&_binary_zzy_1_png_end);
     /* printf("_binary_test_png_size %ld\n",(unsigned long)&_binary_zzy_1_png_end - (unsigned long)&_binary_zzy_1_png_start); */
