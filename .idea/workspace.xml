@@ -12,7 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
+      <change afterPath="$PROJECT_DIR$/Html/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/test_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/test_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/test/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP/test/1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +129,7 @@
       <workItem from="1582342985067" duration="5931000" />
       <workItem from="1583234717992" duration="1797000" />
       <workItem from="1583245788930" duration="309000" />
+      <workItem from="1583849605180" duration="5976000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -160,10 +166,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="try" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581580415836">
+    <state x="1035" y="214" width="800" height="677" key="#Inspections" timestamp="1583854897573">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1581580415836" />
+    <state x="1035" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1583854897573" />
+    <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583849702010">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1583849702010" />
     <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581745561296">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -184,13 +194,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1868" height="250" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
-    <state x="0" y="187" key="SettingsEditor" timestamp="1581678199291">
+    <state x="842" y="193" key="SettingsEditor" timestamp="1583850644638">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="0" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1581678199291" />
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583246442524">
+    <state x="842" y="193" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1583850644638" />
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583849604283">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583246442524" />
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583849604283" />
   </component>
 </project>
