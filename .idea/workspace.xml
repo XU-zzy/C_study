@@ -12,6 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
+      <change afterPath="$PROJECT_DIR$/Html/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/example_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/test_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/test_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/test_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/test_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/test_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/test_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/第一次作业.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +135,7 @@
       <workItem from="1583245788930" duration="309000" />
       <workItem from="1583849605180" duration="5976000" />
       <workItem from="1583928043566" duration="379000" />
+      <workItem from="1584269967909" duration="14454000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -170,10 +180,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1583849702010" />
-    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581745561296">
+    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584272051067">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1581745561296" />
+    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1584272051067" />
     <state width="1868" height="250" key="GridCell.Tab.0.bottom" timestamp="1581580939591">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -194,9 +204,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="842" y="193" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1583850644638" />
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583928109238">
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584269968912">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583928109238" />
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584269968912" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1584278033854">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1584278033854" />
   </component>
 </project>

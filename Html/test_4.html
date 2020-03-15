@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头部</title>
+    <!--使用 <meta> 元素来描述HTML文档的描述，关键词，作者，字符集等。!-->
+    <meta name="description" content="免费在线教程">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="runoob">
+    <!--在WWW上，每一信息资源都有统一的且在网上唯一的地址，
+    该地址就叫URL（Uniform Resource Locator,统一资源定位符），
+    它是WWW的统一资源定位标志，就是指网络地址-->
+    <base href="//www.runoob.com/images/" target="_blank">
+    <style type="text/css">
+        body {background-color:wheat}
+        h1{color: red}
+        p {color:blueviolet}
+    </style>
+</head>
+<body>
+<h1>第一个标题</h1>
+<p>第一个段落</p>
+
+<script>
+    document.write("定义了客户端的脚本文件")
+</script>
+<br>
+
+<img src="logo.png">
+- 注意这里我们设置了图片的相对地址。
+能正常显示是因为我们在 head 部分设置了 base 标签，
+该标签指定了页面上所有链接的默认 URL，
+所以该图片的访问地址为 "http://www.runoob.com/images/logo.png"
+<br><br>
+<a href="//www.runoob.com">菜鸟教程</a>
+- 注意这个链接会在新窗口打开，即便它没有 target="_blank" 属性。
+因为在 base 标签里我们已经设置了 target 属性的值为 "_blank"。
+
+<!--<link> 标签定义了文档与外部资源之间的关系。
+<link> 标签通常用于链接到样式表-->
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+<!--<style> 标签定义了HTML文档的样式文件引用地址.
+在<style> 元素中你也可以直接添加样式来渲染 HTML 文档:-->
+
+
+
+</body>
+</html>

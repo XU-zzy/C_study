@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人空间</title>
+    <link rel="stylesheet" type="text/css" href="/nervous/css/global-1.0.css?v=4">
+    <link rel="stylesheet" href="/nervous/css/common.css?v=4" />
+    <link rel="stylesheet" href="/nervous/css/appicons.css?v=2" />
+    <link rel="stylesheet" type="text/css" href="/nervous/css/jquery.mCustomScrollbar.css?v=4"/>
+    <link rel="stylesheet" href="/nervous/css/index.css?v=12" />
+    <link href="/layui/css/layui.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/nervous/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/cookie.js"></script>
+    <script type="text/javascript" src="/layui/layui.js"></script>
+
+</head>
+<body>
+<div class="root style3">
+    <div class="con-left fl"  id="leftmodule">
+        <div class="left-top" style="cursor: pointer;">
+            <p  id="siteName" title="西安邮电大学">
+    				<span>
+    					西安邮电大学
+    				</span>
+            </p>
+            <span class="icon icon-down"></span>
+            <div class="selection">
+                <div class="search-area">
+                    <div class="search-input">
+                        <img src="/nervous/images/icon-search.png">
+                        <input type="text" placeholder="搜索我的单位" oninput="siteList(this.value);" >
+                    </div>
+                </div>
+                <div class="list">
+                    <ul id="siteList">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="left-con">
+            <div class="user-block">
+                <img class="head-img" src="http://photo.chaoxing.com/p/" />
+                <p class="user-name">周子毅</p>
+            </div>
+            <ul class="menu">
+                <li icon = "">
+
+                    <a  class="active left_1"  href="javascript:void(0);" name = "课程" id="first2199342" onclick="setUrl('2199342','http://mooc1-1.chaoxing.com/visit/interaction?s=b867d559fc48a4be7210a0ebb66748db',this,'','0');" imgName="icon-home">
+                        <span class="icon3 zne_kc_icon"></span>
+                        <span class="text" title="课程">
+                					                					                						课程
+                													</span>
+                    </a>
+                </li>
+                <li icon = "">
+
+                    <a  href="javascript:void(0);" name = "小组" id="first105651" onclick="setUrl('105651','https://groupweb.chaoxing.com/pc/circle/circleIndex?s=b867d559fc48a4be7210a0ebb66748db',this,'','0');" imgName="icon-home">
+                        <span class="icon3 zne_xz_icon"></span>
+                        <span class="text" title="小组">
+                					                					                						小组
+                													</span>
+                    </a>
+                </li>
+                <li icon = "">
+
+                    <a  href="javascript:void(0);" name = "收件箱" id="first475912" onclick="setUrl('475912','http://notice.chaoxing.com/pc/notice/myNotice?s=b867d559fc48a4be7210a0ebb66748db',this,'','0');" imgName="icon-home">
+                        <span class="icon3 zne_sjx_icon"></span>
+                        <span class="text" title="收件箱">
+                					                					                						收件箱
+                													</span>
+                    </a>
+                </li>
+                <li icon = "http://p.ananas.chaoxing.com/star3/origin/566a7614498ed8a4294ed33d.png">
+
+                    <a  href="javascript:void(0);" name = "专题创作" id="first545103" onclick="setUrl('545103','http://yz4.chaoxing.com/subject_creation/SubjectCreationController/subjectCreationIndex?s=b867d559fc48a4be7210a0ebb66748db',this,'http://p.ananas.chaoxing.com/star3/origin/566a7614498ed8a4294ed33d','0');" imgName="icon-home">
+                        <span class="icon3 zne_tkc_icon"></span>
+                        <span class="text" title="专题创作">
+                					                					                						专题创作
+                													</span>
+                    </a>
+                </li>
+                <li icon = "">
+
+                    <a  href="javascript:void(0);" name = "笔记" id="first105641" onclick="setUrl('105641','https://groupyd2.chaoxing.com/pc/activity/activityList?s=b867d559fc48a4be7210a0ebb66748db',this,'http://p.ananas.chaoxing.com/star3/origin/566a7614498ed8a4294ed33d','0');" imgName="icon-home">
+                        <span class="icon3 zne_bj_icon"></span>
+                        <span class="text" title="笔记">
+                					                					                						笔记
+                													</span>
+                    </a>
+                </li>
+                <li icon = "">
+
+                    <a  href="javascript:void(0);" name = "电脑同步云盘" id="first105639" onclick="setUrl('105639','http://pan-yz.chaoxing.com?s=b867d559fc48a4be7210a0ebb66748db',this,'http://p.ananas.chaoxing.com/star3/origin/566a7614498ed8a4294ed33d','0');" imgName="icon-home">
+                        <span class="icon3 zne_yp_icon"></span>
+                        <span class="text" title="电脑同步云盘">
+                					                					                						电脑同步云盘
+                													</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        document.domain = "chaoxing.com";
+        var siteFid = '1719';
+        var tid = '0';
+        var navFlag=false;
+        $(document).ready(function(){
+            if(siteFid!=null && siteFid!=undefined && (siteFid==274 || siteFid=='274')){
+                $("#item_first").hide();
+                $("#headNav").show();
+                navFlag=true;
+            }else{
+                $("#headNav").hide();
+                $("#item_first").show();
+            }
+            /* $(".left_1").removeClass("active");
+            $("#first").addClass("active");
+            if(first == '' || first == null || first == undefined){
+                $("#first").addClass("active");
+            } */
+            if('80915307' != ''){
+                var id =  '80915307';
+                var phono = "http://photo.chaoxing.com/p/"+id+"_80";
+                $(".icon-head").attr("src",phono);
+                $(".head-img").attr("src",phono);
+            } else{
+                $(".icon-head").attr("src","/nervous/images/picture01.png");
+                $(".head-img").attr("src","/nervous/images/picture01.png");
+            }
+
+            $(".left-top").on("click",function(){
+                var selection = $(".style3 .con-left .left-top .selection");
+                if(selection.is(":hidden")){
+                    $(this).find(".icon").addClass("icon-up");
+                    selection.fadeIn(300);
+                }else{
+                    $(this).find(".icon").removeClass("icon-up");
+                    selection.fadeOut(300);
+                }
+            })
+            if("http://mooc1-1.chaoxing.com/visit/interaction?s=b867d559fc48a4be7210a0ebb66748db".indexOf("/base/app")!=-1 || "http://mooc1-1.chaoxing.com/visit/interaction?s=b867d559fc48a4be7210a0ebb66748db".indexOf("/base/index")!=-1 ){
+                $("#mainright").html('<iframe id="frame_content" name="frame_content" onreadystatechange="onloading.call(this)" allowfullscreen="true" allowtransparency="true" onload="iframeAutoResize(this)" frameborder="0" scrolling="no" style="border: 0px;height:900px; min-height:700px;float:left;position: relative;z-index: 99;"width="100%" src=""></iframe>');
+            }else{
+                $("#mainright").html('<iframe id="frame_content" name="frame_content" onreadystatechange="onloading.call(this)" allowfullscreen="true" allowtransparency="true" onload="iframeAutoResize(this)" frameborder="0" scrolling="no" style="border: 0px;height:900px; min-height:700px;float:left;background:#ffffff;position: relative;z-index: 99;"width="100%" src=""></iframe>');
+            }
+            $("#frame_content").attr("src", "http://mooc1-1.chaoxing.com/visit/interaction?s=b867d559fc48a4be7210a0ebb66748db");
+            if(navFlag){
+                var _data=$("#first"+"2199342");
+                setNavList( "2199342", "http://mooc1-1.chaoxing.com/visit/interaction?s=b867d559fc48a4be7210a0ebb66748db",_data, "","0");
+            }
+            try{
+                $('#frame_content').iFrameResize([{log: true,enablePublicMethods:true,}]);
+            }catch(error){
+
+            }
+            $('html , body').animate({scrollTop: 0},0);
+            $("#item_first").html("课程");
+        })
+        function setUrl(id, url,_this, icon,aot_value){
+            var navUrl=url;
+            if(id!=null && id=='app'){
+                $("#item_first").hide();
+                $("#item_back").show();
+                $("#item_back").attr("onclick","setUrl('back','http://i.chaoxing.com/base/app?fid="+siteFid+"&tid="+tid+"')");
+            }else if(id!=null && id=='index'){
+                $("#item_first").hide();
+                $("#item_back").show();
+                $("#item_back").attr("onclick","setUrl('back','http://i.chaoxing.com/base/index?fid="+siteFid+"&tid="+tid+"')");
+            }else if(id!=null && id=='back'){
+                if(!navFlag){
+                    $("#item_first").show();
+                }
+                $("#item_back").hide();
+            }else{
+                if( id=='account'){
+                    $("#item_first").html('账号管理');
+                }else{
+                    $("#item_first").html($(_this).attr("name"));
+                }
+                if(!navFlag){
+                    $("#item_first").show();
+                }
+                $("#item_back").hide();
+                $("#to_top").remove();
+                $(".menu li").each(function(){
+                    $(this).find("a").attr("class","");
+                    $(this).find("img").attr("src",$(this).attr("icon"));
+                })
+                $(_this).attr("class","active left_1");
+                $(_this).find("img").attr("src",icon+"-a.png");
+            }
+
+            if(aot_value==1){
+                window.open("/space/out_link.shtml?ename=&burl="+url);
+            }else if(aot_value==2){
+                window.open(url);
+            }else if(aot_value==3){
+                window.location.href="/space/out_link.shtml?ename=&burl="+url;
+            }else if(aot_value==4){
+                window.location.href=url;
+            }else{
+                if(url.indexOf("/base/app")!=-1 || url.indexOf("/base/index")!=-1 ){
+                    url=url+"&fid="+siteFid+"&tid="+tid;
+                    $("#mainright").html('<iframe id="frame_content" name="frame_content" onreadystatechange="onloading.call(this)" allowfullscreen="true" allowtransparency="true" onload="iframeAutoResize(this)" frameborder="0" scrolling="no" style="border: 0px; height:900px; min-height:700px;float:left;position: relative;z-index: 99;"width="100%" src=""></iframe>');
+                }else{
+                    $("#mainright").html('<iframe id="frame_content" name="frame_content" onreadystatechange="onloading.call(this)" allowfullscreen="true" allowtransparency="true" onload="iframeAutoResize(this)" frameborder="0" scrolling="no" style="border: 0px; height:900px; min-height:700px;float:left;background:#ffffff;position: relative;z-index: 99;"width="100%" src=""></iframe>');
+                }
+                $("#frame_content").attr("src", url);
+                if(id!=null && id!=undefined && id!='app' && navFlag){
+                    setNavList(id, navUrl,_this, icon,aot_value);
+                }
+                try{
+                    $('#frame_content').iFrameResize([{log: true,enablePublicMethods:true,}]);
+                }catch(error){
+
+                }
+                $('html , body').animate({scrollTop: 0},0);
+            }
+        }
+        $(document).ready(function (){
+            siteList('');
+        })
+        var schoolName = "西安邮电大学";
+        function siteList(searchName){
+            $.ajax({
+                url:'/base/userOrg',
+                data:{searchName:searchName},
+                dataType:'json',
+                type:'post',
+                success:function(data){
+                    if(data.site.length > 0){
+                        var html = "";
+                        for ( var j = 0; j < data.site.length; j++) {
+                            html += "<li onclick=\"switchSite("+data.site[j].fid+",'"+data.site[j].schoolname+"',this,'"+data.site[j].wfworg+"',"+data.site[j].tid+")\"";
+                            if(siteFid == data.site[j].fid && tid == data.site[j].tid){
+                                html += "class=\"active\"";
+                                schoolName = data.site[j].schoolname;
+                                html += "><p title='"+ data.site[j].schoolname+"'> <span> "+data.site[j].schoolname+"</span></p>";
+                                html += "<img src=\"/nervous/images/correct.png\" alt=\"\" class=\"mCS_img_loaded\"/></li>"
+                            }else{
+                                html += "><p title='"+ data.site[j].schoolname+"'> <span> "+data.site[j].schoolname+"</span></p>";
+                            }
+                        }
+                        $("#siteName").attr("title",schoolName).find("span").html(schoolName);;
+                        $("#siteList").html(html);
+                    }else{
+                        $("#siteList").html('');
+                    }
+                }
+            })
+        }
+
+        function switchSite(fid,name,_this,wfworg,tid){
+            $(_this).addClass("active").siblings().removeClass("active");
+            $.ajax({
+                url:'/base/switchSite',
+                data:{siteFid:fid,siteName:name,siteTid:tid},
+                type:'post',
+                success:function(){
+                    var timestamp = Date.parse(new Date());
+                    var title="";
+                    if(name.length>13){
+                        title = name.substring(0, 13)+"..."
+                    }else{
+                        title=name;
+                    }
+                    $("#siteName").html(title).attr("title",name);
+                    $('#frame_content').attr('src', 'http://i.chaoxing.com/base/app?fid='+fid+'&tid='+tid);
+                    $(".left_1").each(function(){
+                        if($(this).hasClass("active")){
+                            var oldImg = $(this).attr("imgName");
+                            $(this).find("img").attr("src","/nervous/images/"+oldImg+".png");
+                        }
+                    })
+                    $("#app").find("img").attr("src","/nervous/images/icon-app-a.png");
+                    $(".left_1").removeClass("active");
+                    $("#app").addClass("active");
+                    location.href = "/base?fid="+fid+"&wfworg="+wfworg+"&tid="+tid;
+                }
+            })
+        }
+    </script>
+
+    <script type="text/javascript">
+        var timer;
+        function scroll(dom) {
+            var maxW = dom.find("span").width() - dom.width();
+            if(maxW <= 0){
+                return;
+            }
+            dom.css("text-overflow","unset");
+            timer = setInterval(function() {
+                dom[0].scrollLeft++;
+                if(dom[0].scrollLeft >= maxW){
+                    clearInterval(timer);
+                }
+            }, 10);
+        }
+        $(".selection").on("mouseenter","li p",function(){
+            scroll($(this));
+        })
+        $(".selection").on("mouseleave","li p",function(){
+            $(this)[0].scrollLeft = 0;
+            clearInterval(timer);
+            $(this).css("text-overflow","ellipsis");
+        })
+
+        $(".selection .list").on("mouseenter",function(){
+            var top = $(document).scrollTop();
+            $(document).on('scroll.unable',function (e) {
+                $(document).scrollTop(top);
+            })
+        })
+
+        $(".selection .list").on('mouseleave',function(){
+            $(document).unbind("scroll.unable");
+        })
+
+        $(".selection .search-input input").on("blur",function(){
+            $(this).parent().removeClass("focus");
+        })
+        $(".selection .search-input input").on("click",function(e){
+            e.stopPropagation();
+            $(this).parent().addClass("focus");
+        })
+    </script>	<div class="con-right fl">
+    <div class="right-top">
+        <div style="width:1200px;margin:0 auto;">
+            <div class="center">
+                <span class="item"  id="item_first" >首页</span>
+                <p class="back" id="item_back" style="display:none;" onclick="">
+                    <img src="/nervous/images/menuNext.png" />&nbsp;
+                    <span>返回</span>
+                </p>
+                <div class="head-nav" style="display:none;" id="headNav">
+                    <div class="head-nav-list">
+                        <ul>
+
+                        </ul>
+                    </div>
+                    <div class="head-nav-more">
+                        <div class="head-more"></div>
+                        <div class="head-more-list">
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav fr" style="position:relative">
+
+                    <li class="user">
+                        <img class="icon-head" src="http://photo.chaoxing.com/p/"/>
+                        <span>周子毅</span>
+                        <span class="icon-down02"></span>
+                        <div class="user-popup">
+                            <ul>
+                                <li onclick="setUrl('account','http://i.chaoxing.com/base/settings');">账号管理</li>
+                                <!-- <li>我的积分</li> -->
+                                <li onclick="logout()">退出空间</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <script>
+                    function logout(){
+                        var url = "http://i.mooc.chaoxing.com/base";
+                        var refer=document.URL;
+                        var source = getCookie("source");
+                        var backUrl="";
+                        if(backUrl!=null && backUrl!=undefined && backUrl!='' && backUrl!='null' ){
+                            url=backUrl
+                        }else{
+                            if(refer.indexOf("i.chaoxing.com") != -1){
+                                url = "http://i.chaoxing.com";
+                                if(source.indexOf("num")!=-1){
+                                    var flag= "v"+source.substring(3);
+                                    if(flag!=null && flag!=undefined && flag=='v100'){
+                                        flag="cv";
+                                    }
+                                    url = "http://"+flag+".chaoxing.com?fid="+getCookie("spaceFid");
+                                }
+                            }
+                        }
+                        setCookie('source','',1,'chaoxing.com');
+                        $.ajax({
+                            url : "/base/logout",
+                            success : function() {
+                            }
+                        })
+                        setCookie('source','',1,'chaoxing.com');
+                        window.location.href = "http://passport2.chaoxing.com/logout.html?refer="+encodeURI(url);
+                    }
+                    $(document).ready(function() {
+                        $(".user").mouseover(function(){
+                            $(".user-popup").show();
+                        });
+                        $(".user").mouseout(function(){
+                            $(".user-popup").hide();
+                        });
+                    })
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="right-con" style="overflow-x:auto;min-width:1200px;">
+        <div class="bodyBg"></div>
+        <div class="center" style="padding-top: 0px;margin: 0 auto;" id="mainright">
+            <iframe id="frame_content" name="frame_content" onreadystatechange="onloading.call(this)" allowfullscreen="true" allowtransparency="true" onload="iframeAutoResize(this)" frameborder="0" scrolling="no" style="border: 0px; height:900px; min-height:700px;position: relative;z-index: 99;" width="100%" src="http://i.chaoxing.com/base/index?source="></iframe>
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="/nervous/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="/nervous/js/comon.js?v=4" ></script>
+<script type="text/javascript" src="/nervous/js/page.js?v=4"></script>
+<script type="text/javascript" src="/style/defstyle/js/iframeResizer.min.js"></script>
+<script>
+    $(document).ready(function () {
+        /* 导航下拉 */
+        $(".head-nav-more .head-more").click(function (e) {
+            e.stopPropagation();
+            $(this).next().stop().slideToggle('fast');
+        });
+        $(document).click(function (e) {
+            e.stopPropagation();
+            $(".head-more-list").slideUp('fast');
+        });
+        //   删除头部导航
+        $(".head-nav").on('click', ".head-nav-list li .nav-close", function (e) {
+            e.stopPropagation();
+            $(this).parents('li').remove();
+            var moreLi = $(".head-more-list ul li");
+            var dataIdThis=$(this).parent().find('.nav-name').attr('data-id');
+            if (moreLi.length > 0) {
+                var moreFistLi = moreLi.eq(0).remove();
+                $(".head-nav-list ul").append(moreFistLi);
+                if ($(".head-more-list ul li").length == 0) {
+                    $(".head-nav-more").hide();
+                }
+            }
+        });
+        $(".head-nav").on('click', ".head-more-list li .nav-close", function (e) {
+            e.stopPropagation();
+            $(this).parents('li').remove();
+            if ($(".head-more-list ul li").length == 0) {
+                $(".head-nav-more").hide();
+            }
+        });
+    });
+
+    function setNavList(dataId,navUrl,_this, icon,aot_value) {
+        var dataName = $(_this).find(".text").attr("title");
+        var onc="#first"+dataId;
+        var setUrlT ="setUrl('"+dataId+"','"+navUrl+"','"+onc+"','"+icon+"','"+aot_value+"');";
+        $(".head-nav-list ul li").removeClass('cur');
+        $(".head-more-list ul li").removeClass('cur');
+        var dataLi=$("#nav"+dataId);
+        if(dataLi.length>0){
+            dataLi.addClass('cur');
+        }else{
+            var navLen=$(".head-nav-list ul li").length;
+            if(navLen>5){
+                $(".head-nav-more").show();
+                var navListStr2 = '<li class="cur" id="nav'+dataId+'"><span class="nav-name" data-id="'+dataId+'" onclick="' + setUrlT + '">' + dataName + '</span><span class="nav-close"></span></li>';
+                $(".head-more-list ul").append(navListStr2);
+            }else{
+                $(".head-nav-more").hide();
+                var navListStr1 = '<li class="cur" id="nav'+dataId+'"><span class="nav-name" data-id="'+dataId+'" onclick="' + setUrlT + '">' + dataName + '</span><span class="nav-close"></span></li>';
+                $(".head-nav-list ul").append(navListStr1);
+            }
+        }
+    };
+
+</script>
+<script type="text/javascript">
+    var iframe = document.getElementById("frame_content");
+    iframe.onload = function(){
+        $("#iframe").contents().find(".Wrapbody").css("margin","0 auto");
+        $("#iframe").contents().find(".con-right").css("width","100%");
+    }
+
+    document.domain = "chaoxing.com";
+    function setTab(id){
+        $("#li_"+id).addClass("activess").siblings().removeClass("activess");
+        frame_content.window.setTab_1(id);
+    }
+    function iframeAutoResize(doc) {
+        var ifm= document.getElementById("frame_content");
+        var subWeb = "";
+        try{
+            subWeb = document.frames ? document.frames["frame_content"].document : ifm.contentDocument;
+        }catch(err){
+            return false;
+        }
+        var src = $("#frame_content").attr("src");
+        var initHeigth =  ifm.contentWindow.document.documentElement.scrollHeight;
+        if(ifm != null && subWeb != null) {
+            if(subWeb.body.clientHeight < initHeigth){
+                if((subWeb.body.clientHeight-initHeigth)!=-20 && (subWeb.body.clientHeight-initHeigth)!=-56){
+                    $("#frame_content").height(initHeigth+"px");
+                    $("#frame_content").css("min-height",$(window).height()-60);
+                }
+            }else{
+                $("#frame_content").height(subWeb.body.clientHeight+"px");
+                if($("#item_back").css("display")!="none"){
+                    $("#frame_content").css("min-height",$(window).height());
+                }else{
+                    $("#frame_content").css("min-height",$(window).height()-60);
+                }
+
+            }
+
+        }
+    }
+    function secIframeAutoResize() {
+        iframeAutoResize(document.getElementById("frame_content"));
+    }
+    window.setInterval("secIframeAutoResize()", 2000);
+    var winScroll=$(window.parent.window) ? $(window.parent.window) : $(window);
+    var docScroll=$(window.parent.document) ? $(window.parent.document) : $(document);
+
+    winScroll.scroll(function(){
+        if (winScroll.scrollTop()+winScroll.height() >= docScroll.height()-5) {
+            try{
+                document.getElementById('frame_content').contentWindow.loading();
+            }catch(err){
+                return false;
+            }
+        }
+    });
+    $('#frame_content').iFrameResize([{log: true}]);
+
+    function reloadImg(){
+        $(".head-img").attr("src",$(".head-img").attr("src")+"?t="+Math.random());
+        $(".icon-head").attr("src",$(".icon-head").attr("src")+"?t="+Math.random());
+    }
+
+    $(document).click(function(e){
+        var target = $(e.target);
+        if(target.closest(".left-top").length != 0) return;
+        $(".selection").hide();
+        $(".left-top .icon-down").removeClass("icon-up");
+    });
+
+    var iframe=document.getElementById("frame_content");
+    iframe.onload=function(){
+        iframe.contentDocument.onclick=function(e){
+            $(".selection").fadeout(500);
+        }
+    }
+    $(".left-top").mouseleave(function(){
+        $(".selection").fadeOut(500);
+        $(".left-top .icon-down").removeClass("icon-up")
+    })
+    $(".left-top .icon-down").click(function(){
+        var selection = $(".style3 .con-left .left-top .selection");
+        if(selection.is(":hidden")){
+            $(this).addClass("icon-up");
+            selection.fadeIn(300);
+        }else{
+            $(this).removeClass("icon-up");
+            selection.fadeOut(300);
+        }
+    })
+</script>
+</body>
+</html>
