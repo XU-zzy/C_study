@@ -12,19 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/Sale_item" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/demo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/try" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP/test/exercise/9.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/huffman/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/huffman/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP/test/exercise/demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP/test/exercise/1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +133,7 @@
       <workItem from="1584529518639" duration="5129000" />
       <workItem from="1584541422533" duration="2207000" />
       <workItem from="1584604185684" duration="782000" />
-      <workItem from="1584866354888" duration="7218000" />
+      <workItem from="1584866354888" duration="9919000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -183,11 +174,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1035" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1583854897573" />
-    <state x="478" y="294" width="602" height="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584869322489">
+    <state x="478" y="294" width="602" height="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584877977002">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
     <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1583849702010" />
-    <state x="478" y="294" width="602" height="337" key="#com.intellij.fileTypes.FileTypeChooser/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1584869322489" />
+    <state x="478" y="294" width="602" height="337" key="#com.intellij.fileTypes.FileTypeChooser/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1584877977002" />
     <state x="453" y="195" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584868352448">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
