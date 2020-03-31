@@ -12,12 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
-      <change afterPath="$PROJECT_DIR$/Html/775792c1cd0360b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Html/7b46b302d25ecddbc23149a4d73a4d8c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Html/CSS_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Html/u=3420302556,3759771252&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/人机交互界面第一次作业--软件1802--周子毅.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/人机交互界面第一次作业--软件1802--周子毅.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +132,8 @@
       <workItem from="1584604185684" duration="782000" />
       <workItem from="1584866354888" duration="9919000" />
       <workItem from="1584945685150" duration="1842000" />
-      <workItem from="1585468423254" duration="2915000" />
+      <workItem from="1585468423254" duration="3194000" />
+      <workItem from="1585669034415" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -212,11 +208,11 @@
     </state>
     <state x="1996" y="52" key="SettingsEditor/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1584531149706" />
     <state x="842" y="193" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1583850644638" />
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585468425920">
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585669034729">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1584529519163" />
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585468425920" />
+    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585669034729" />
     <state x="454" y="320" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1584945691494" />
     <state x="2045" y="362" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@1440.0.1920.1080" timestamp="1584541438414" />
     <state x="624" y="252" key="run.anything.popup" timestamp="1584278033854">
