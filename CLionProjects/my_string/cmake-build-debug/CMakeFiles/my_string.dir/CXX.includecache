@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/zzy/Study/CLionProjects/my_string/main.cpp
+/home/zzy/Study/CLionProjects/my_string/My_string.h
 iostream
 -
+cstdlib
+-
+cstring
+-
+string
+-
+
+/home/zzy/Study/CLionProjects/my_string/main.cpp
+My_string.h
+/home/zzy/Study/CLionProjects/my_string/My_string.h
 
