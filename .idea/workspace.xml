@@ -13,12 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
       <change afterPath="$PROJECT_DIR$/CPP/test/exercise_2/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP/test/exercise_2/2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP/test/exercise_2/3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP/test/exercise_2/4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP/test/exercise_2/5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP/test/exercise_2/6.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/my_string/cmake-build-debug/CMakeFiles/my_string.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/my_string/cmake-build-debug/CMakeFiles/my_string.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/my_string/cmake-build-debug/CMakeFiles/my_string.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/my_string/cmake-build-debug/CMakeFiles/my_string.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLionProjects/my_string/cmake-build-debug/CMakeFiles/my_string.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLionProjects/my_string/cmake-build-debug/CMakeFiles/my_string.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP/test/exercise/16.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP/test/exercise/16.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP/test/exercise/17.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP/test/exercise/17.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
@@ -76,7 +77,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="huffman" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="huffman" TARGET_NAME="huffman" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="huffman" RUN_TARGET_NAME="huffman">
@@ -142,6 +143,7 @@
       <workItem from="1586246390804" duration="641000" />
       <workItem from="1586401100335" duration="3447000" />
       <workItem from="1586406048887" duration="322000" />
+      <workItem from="1587349289259" duration="12252000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -182,6 +184,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1035" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1583854897573" />
+    <state x="315" y="110" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587350042853">
+      <screen x="0" y="27" width="1440" height="873" />
+    </state>
+    <state x="315" y="110" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587350042853" />
     <state x="478" y="294" width="602" height="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586181258699">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
@@ -211,17 +217,18 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1868" height="250" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
-    <state x="129" y="212" key="SettingsEditor" timestamp="1585669954264">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="0" y="170" key="SettingsEditor" timestamp="1587383476271">
+      <screen x="0" y="27" width="1440" height="873" />
     </state>
     <state x="1996" y="52" key="SettingsEditor/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1584531149706" />
     <state x="129" y="212" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1585669954264" />
-    <state x="454" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1586401153086">
-      <screen x="0" y="27" width="1440" height="873" />
+    <state x="0" y="170" key="SettingsEditor/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587383476271" />
+    <state x="1618" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1587350057263">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1584529519163" />
     <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586246396954" />
-    <state x="454" y="320" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1586401153086" />
+    <state x="1618" y="200" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587350057263" />
     <state x="2045" y="362" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@1440.0.1920.1080" timestamp="1586306712322" />
     <state x="624" y="252" key="run.anything.popup" timestamp="1584278033854">
       <screen x="0" y="27" width="1920" height="1053" />
