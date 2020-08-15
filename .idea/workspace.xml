@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try" />
+    <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,6 +141,7 @@
       <workItem from="1587455932630" duration="716000" />
       <workItem from="1587524429577" duration="649000" />
       <workItem from="1587610024412" duration="599000" />
+      <workItem from="1594946676926" duration="1789000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -175,59 +178,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="try" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1035" y="214" width="800" height="677" key="#Inspections" timestamp="1583854897573">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1035" y="214" width="800" height="677" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1583854897573" />
     <state x="315" y="110" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587350042853">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
     <state x="315" y="110" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587350042853" />
-    <state x="478" y="294" width="602" height="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586181258699">
-      <screen x="0" y="27" width="1440" height="873" />
-    </state>
-    <state x="637" y="349" width="635" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1583849702010" />
-    <state x="478" y="294" width="602" height="337" key="#com.intellij.fileTypes.FileTypeChooser/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1586181258699" />
-    <state x="453" y="195" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584868352448">
-      <screen x="0" y="27" width="1440" height="873" />
-    </state>
-    <state x="453" y="195" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1584868352448" />
-    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584272051067">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="684" y="390" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1584272051067" />
-    <state width="1868" height="250" key="GridCell.Tab.0.bottom" timestamp="1581580939591">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1868" height="250" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
-    <state width="1868" height="250" key="GridCell.Tab.0.center" timestamp="1581580939591">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1868" height="250" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
-    <state width="1868" height="250" key="GridCell.Tab.0.left" timestamp="1581580939591">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1868" height="250" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
-    <state width="1868" height="250" key="GridCell.Tab.0.right" timestamp="1581580939591">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1868" height="250" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1581580939591" />
     <state x="0" y="170" key="SettingsEditor" timestamp="1587383476271">
       <screen x="0" y="27" width="1440" height="873" />
     </state>
-    <state x="1996" y="52" key="SettingsEditor/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1584531149706" />
-    <state x="129" y="212" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1585669954264" />
     <state x="0" y="170" key="SettingsEditor/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587383476271" />
-    <state x="303" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1587610055724">
-      <screen x="0" y="27" width="1440" height="873" />
+    <state x="337" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1594946677736">
+      <screen x="0" y="94" width="1600" height="873" />
     </state>
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1584529519163" />
-    <state x="605" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586246396954" />
-    <state x="303" y="273" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587610055724" />
+    <state x="337" y="340" key="com.intellij.ide.util.TipDialog/0.94.1600.873/1600.0.1920.1080@0.94.1600.873" timestamp="1594946677736" />
+    <state x="303" y="273" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587722334377" />
     <state x="2045" y="362" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@1440.0.1920.1080" timestamp="1586306712322" />
-    <state x="624" y="252" key="run.anything.popup" timestamp="1584278033854">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1584278033854" />
   </component>
 </project>
