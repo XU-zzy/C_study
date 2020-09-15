@@ -142,6 +142,7 @@
       <workItem from="1587524429577" duration="649000" />
       <workItem from="1587610024412" duration="599000" />
       <workItem from="1594946676926" duration="1789000" />
+      <workItem from="1599533808054" duration="1084000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -178,19 +179,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="try" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="315" y="110" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587350042853">
-      <screen x="0" y="27" width="1440" height="873" />
-    </state>
-    <state x="315" y="110" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587350042853" />
-    <state x="0" y="170" key="SettingsEditor" timestamp="1587383476271">
-      <screen x="0" y="27" width="1440" height="873" />
-    </state>
-    <state x="0" y="170" key="SettingsEditor/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587383476271" />
-    <state x="337" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1594946677736">
-      <screen x="0" y="94" width="1600" height="873" />
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1599533811706">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="337" y="340" key="com.intellij.ide.util.TipDialog/0.94.1600.873/1600.0.1920.1080@0.94.1600.873" timestamp="1594946677736" />
-    <state x="303" y="273" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@0.27.1440.873" timestamp="1587722334377" />
-    <state x="2045" y="362" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.27.1440.873@1440.0.1920.1080" timestamp="1586306712322" />
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599533811706" />
   </component>
 </project>

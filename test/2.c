@@ -23,7 +23,7 @@ void fun(void){
 }
 int main(){
     //prctl函数可以使当前调用它的进程变为subreaper进程
-    prctl(PR_SET_CHILD_SUBREAPER,1);
+    /* prctl(PR_SET_CHILD_SUBREAPER,1); */
     pid_t pid;
     pid = fork();
     switch(pid){
