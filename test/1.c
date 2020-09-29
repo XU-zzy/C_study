@@ -5,8 +5,7 @@
  
 void descendant_process(void);
  
-int 
-main(void)
+int main(void)
 {
     prctl(PR_SET_CHILD_SUBREAPER,1);
     //设置的child subreaper不会被继承

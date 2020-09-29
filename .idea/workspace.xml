@@ -12,7 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
+      <change afterPath="$PROJECT_DIR$/Html/test_10.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.helloworld.o.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/test/.helloworld.o.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/1.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helloworld.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/helloworld.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helloworld.mod.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/helloworld.mod.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -143,6 +152,8 @@
       <workItem from="1587610024412" duration="599000" />
       <workItem from="1594946676926" duration="1789000" />
       <workItem from="1599533808054" duration="1084000" />
+      <workItem from="1600389134032" duration="318000" />
+      <workItem from="1600934856280" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -179,10 +190,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="try" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="404" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1599533811706">
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1600934855452">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600389136166" />
     <state x="337" y="340" key="com.intellij.ide.util.TipDialog/0.94.1600.873/1600.0.1920.1080@0.94.1600.873" timestamp="1594946677736" />
-    <state x="404" y="324" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599533811706" />
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1600934855452" />
   </component>
 </project>
