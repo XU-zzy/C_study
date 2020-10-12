@@ -8,7 +8,7 @@ sem_t plate,apple,orange;
 void *father(void *p){
     while(1){
         sem_wait(&plate);
-        printf("father apple:%d,orange%d");
+        printf("father puts apple\n");
         sleep(1);
         sem_post(&apple);
     }
@@ -17,7 +17,7 @@ void *father(void *p){
 void *mother(void *p){
     while(1){
         sem_wait(&plate);
-        printf("2\n");
+        printf("mother puts orange\n");
         sleep(1);
         sem_post(&orange);
     }
@@ -26,7 +26,7 @@ void *mother(void *p){
 void *daughter(void *p){
     while(1){
         sem_wait(&apple);
-        printf("3\n");
+        printf("daughter eats apple\n");
         sleep(1);
         sem_post(&plate);
     }
@@ -35,7 +35,7 @@ void *daughter(void *p){
 void *son(void *p){
     while(1){
         sem_wait(&orange);
-        printf("4\n");
+        printf("son eats orange\n");
         sleep(1);
         sem_post(&plate);
     }
@@ -43,7 +43,7 @@ void *son(void *p){
 }
 int main(void){
     sem_init(&plate,0,1);
-    sem_init(&apple,0,1);
+    sem_init(&apple,0,0);
     sem_init(&orange,0,0);
     pthread_t tid[4];
     pthread_create(&tid[0],NULL,father,NULL);
