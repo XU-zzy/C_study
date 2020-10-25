@@ -1,3 +1,4 @@
+//生产者——消费者死锁
 #include<stdio.h>
 #include<pthread.h>
 #include<unistd.h>
@@ -15,8 +16,10 @@ void *producer (void *pos){
         printf("goods+1\n");
         sleep(1);
         pthread_mutex_lock(&mutexB);
+       
         pthread_mutex_unlock(&mutexA);
-        /* pthread_mutex_unlock(&mutexB); */
+        
+        pthread_mutex_unlock(&mutexB);
     }
     return NULL;
 }
@@ -29,8 +32,10 @@ void *customer (void *pos){
         printf("goods-1\n");
         sleep(1);
         pthread_mutex_lock(&mutexA);
+        
         pthread_mutex_unlock(&mutexB);
-        /* pthread_mutex_unlock(&mutexA); */
+
+        pthread_mutex_unlock(&mutexA);
     }
     return NULL;
 }
