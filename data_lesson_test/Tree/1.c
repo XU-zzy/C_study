@@ -189,7 +189,8 @@ void Oder_qian_F(BiTree T){
     }
  
 }
- 
+
+//非递归中序遍历
 void Oder_zhong_F(BiTree T){
     Stack S = InitStack();
     BiTree p = T;

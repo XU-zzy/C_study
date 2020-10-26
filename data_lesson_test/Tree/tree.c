@@ -403,7 +403,7 @@ BiTree Creat_Tree_by_qian_zhong(char *qian,char *zhong,int len_qian){
     return T;
 }
 
-//按照中序和前序遍历结果来创建二叉树
+//按照中序和后序遍历结果来创建二叉树
 BiTree Creat_Tree_by_zhong_hou(char *hou,char *zhong,int len_hou){
     if(!len_hou){
         return NULL;
