@@ -12,18 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_07.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_10_1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/offer_10_2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_lesson_test/Tree/1.c" beforeDir="false" afterPath="$PROJECT_DIR$/data_lesson_test/Tree/1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_lesson_test/Tree/tree.c" beforeDir="false" afterPath="$PROJECT_DIR$/data_lesson_test/Tree/tree.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/offer_04.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/offer_04.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +153,8 @@
       <workItem from="1600389134032" duration="318000" />
       <workItem from="1600934856280" duration="7000" />
       <workItem from="1603714866591" duration="1932000" />
-      <workItem from="1603716813164" duration="6246000" />
+      <workItem from="1603716813164" duration="6525000" />
+      <workItem from="1603788052427" duration="2242000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -208,10 +199,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603716787558" />
-    <state x="404" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1603714866615">
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1603788058013">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="404" y="324" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600389136166" />
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603788058013" />
     <state x="404" y="324" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603714866615" />
   </component>
 </project>
