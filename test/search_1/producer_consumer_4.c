@@ -4,7 +4,8 @@
 #include<pthread.h>
 #include<semaphore.h>
 #include<string.h>
-#define M   8   //生产者和消费者的个数
+#include<unistd.h>
+#define M_p   8   //生产者和消费者的个数
 #define N   10  //缓冲区大小
 sem_t space,prod,sin,sout;
 
@@ -50,11 +51,11 @@ int main(){
     sem_init(&prod,0,0);    //初始化商品
     sem_init(&sin,0,1);     //表示队列头
     sem_init(&sout,0,1);    //表示队列尾
-    pthread_t tid1[M],tid2[M];
-    for(int i = 0;i < M;i++){
+    pthread_t tid1[M_p],tid2[M_p];
+    for(int i = 0;i < M_p;i++){
         pthread_create(&tid1[i],NULL,producer,NULL);
     }
-    for(int i = 0;i < M;i++){
+    for(int i = 0;i < M_p;i++){
         pthread_create(&tid2[i],NULL,consumer,NULL);
     }
     sem_destroy(&space);

@@ -12,8 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_10_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self_cultivation_of_programmers/Link_Library_Study/experiment/phi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self_cultivation_of_programmers/Link_Library_Study/experiment/pro_con_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self_cultivation_of_programmers/Link_Library_Study/experiment/r_w_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self_cultivation_of_programmers/Link_Library_Study/experiment/work.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self_cultivation_of_programmers/Link_Library_Study/experiment/work_p_c_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Self_cultivation_of_programmers/Link_Library_Study/experiment/work_phi.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/search_1/producer_consumer_1.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/search_1/producer_consumer_1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/search_1/producer_consumer_2.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/search_1/producer_consumer_2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/search_1/producer_consumer_3.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/search_1/producer_consumer_3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/search_1/producer_consumer_4.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/search_1/producer_consumer_4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/search_1/read_write_1.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/search_1/read_write_1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/search_1/read_write_2" beforeDir="false" afterPath="$PROJECT_DIR$/test/search_1/read_write_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/search_1/read_write_2.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/search_1/read_write_2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/search_1/xxx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +90,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Self_cultivation_of_programmers/Link_Library_Study/experiment" />
       <recent name="$PROJECT_DIR$/leetcode" />
     </key>
   </component>
@@ -155,6 +169,9 @@
       <workItem from="1603714866591" duration="1932000" />
       <workItem from="1603716813164" duration="6525000" />
       <workItem from="1603788052427" duration="2242000" />
+      <workItem from="1604497674484" duration="244000" />
+      <workItem from="1604535298189" duration="8585000" />
+      <workItem from="1604575183714" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -199,10 +216,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603716787558" />
-    <state x="404" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1603788058013">
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1604575197843">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="404" y="324" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603788058013" />
+    <state x="404" y="324" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1604575197843" />
     <state x="404" y="324" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1603714866615" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1604536275567">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604536275567" />
   </component>
 </project>

@@ -20,7 +20,7 @@ void *reader(void *p){
         sem_wait(&sdata);
     }
     sem_post(&srcount);
-
+    printf("Reading dataset...\n");
     //Reading dataset......
     
     sem_wait(&srcount);
@@ -36,7 +36,7 @@ void *writer(void *p){
     sem_wait(&sdata);
 
     //Writing dataset...
-    
+    printf("Writing dataset...\n");
     sem_post(&sdata);
 
     return NULL;

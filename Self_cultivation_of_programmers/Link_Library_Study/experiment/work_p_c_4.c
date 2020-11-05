@@ -1,51 +1,39 @@
-//多缓冲区,单生产者，单消费者
-#include<stdio.h>
-#include<pthread.h>
-#include<semaphore.h>
-#include<string.h>
-#include<unistd.h>
-#define N   10
-sem_t space,prod;
+//
+// Created by zzy on 2020/11/5.
+//
 
-int Buffer[N];
+#include "work.h"
 int in = 0,out = 0; //定义队头队尾
 
+//pro_con_4.c
 void *producer(void *p){
     while(1){
         sem_wait(&space);
+        sem_wait(&sin);
         printf("Put a produt into Buffer[%d]\n",in);
         Buffer[in] = 1;
         printf("Buffer[%d] = %d\n",in,Buffer[in]);
         in = (in + 1)%N;
         sleep(1);
         sem_post(&prod);
+        sem_post(&sin);
     }
     return NULL;
 }
 
 void *consumer(void *p){
     while(1){
+        //下面两条语句不可交换位置，否则发生死锁
+        //若交换，
         sem_wait(&prod);
+        sem_wait(&sout);
         printf("Gets a produt from Buffer[%d]\n",out);
         Buffer[out] = 0;
         printf("Buffer[%d] = %d\n",out,Buffer[out]);
         out = (out + 1)%N;
         sleep(1);
         sem_post(&space);
+        sem_post(&sout);
     }
     return NULL;
-}
-
-
-int main(){
-    memset(Buffer,0,10);
-    sem_init(&space,0,N);   //初始化缓冲区空间
-    sem_init(&prod,0,0);    //初始化商品
-    pthread_t tid[2];
-    pthread_create(&tid[0],NULL,producer,NULL);
-    pthread_create(&tid[1],NULL,consumer,NULL);
-    sem_destroy(&space);
-    sem_destroy(&prod);
-    pthread_join(tid[0],NULL);
-    return 0;
 }

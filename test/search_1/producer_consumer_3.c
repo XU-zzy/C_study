@@ -3,6 +3,7 @@
 #include<pthread.h>
 #include<semaphore.h>
 #include<string.h>
+#include<unistd.h>
 #define M   8   //生产者和消费者的个数
 #define N   10  //缓冲区大小
 sem_t space,prod,buf;
