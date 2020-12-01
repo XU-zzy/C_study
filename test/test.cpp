@@ -33,7 +33,7 @@ int Bfs(int st ,int ed,int map[N][N]){
             return peps;
         }
 
-        //向左
+        //向右
         if((u.x+1) < N){
             t.x = u.x + 1;
             t.y = u.y;
