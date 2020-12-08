@@ -1,0 +1,157 @@
+ recv_fd : 5
+ pack left Now is:0
+
+
+
+
+ ******PACK******
+ type     : 3
+ send_name: zzy
+ recv_name: server
+ mes      : 
+ send_fd   : 5
+ recv_fd   : 0
+ send_pack_num:0
+*******************
+
+
+
+
+deal function = 3
+str = 0 zzy_2
+
+
+*****发送包****
+ type    :3
+ from    : server
+ to      : zzy
+ mes     : 0 zzy_2
+ recv_fd : 5
+ pack left Now is:0
+
+
+
+
+ ******PACK******
+ type     : 3
+ send_name: zzy
+ recv_name: server
+ mes      : 
+ send_fd   : 5
+ recv_fd   : 0
+ send_pack_num:0
+*******************
+
+zzy 下线了!
+
+ *****user***1********* 
+user_name  :zzy
+int  statu :0
+friends_num:1
+*zzy_2
+user_num   :0
+***********************
+
+
+
+ *****user***2********* 
+user_name  :zzy_2
+int  statu :0
+friends_num:1
+*zzy
+user_num   :0
+***********************
+
+
+5 连接成功
+
+
+
+ ******PACK******
+ type     : 1
+ send_name: zzy
+ recv_name: server
+ mes      : zzy
+ send_fd   : 5
+ recv_fd   : 0
+ send_pack_num:0
+*******************
+
+
+
+
+deal function = 1
+
+
+********登录**********
+ zzy 登陆成功!
+ statu:    0
+ socket_id:5
+
+
+
+*****发送包****
+ type    :1
+ from    : server
+ to      : zzy
+ mes     : 1
+ recv_fd : 5
+ pack left Now is:0
+
+
+
+
+ ******PACK******
+ type     : 3
+ send_name: zzy
+ recv_name: server
+ mes      : 
+ send_fd   : 5
+ recv_fd   : 0
+ send_pack_num:0
+*******************
+
+
+
+
+deal function = 3
+str = 0 zzy_2
+
+
+*****发送包****
+ type    :3
+ from    : server
+ to      : zzy
+ mes     : 0 zzy_2
+ recv_fd : 5
+ pack left Now is:0
+
+
+
+
+ ******PACK******
+ type     : 3
+ send_name: zzy
+ recv_name: server
+ mes      : 
+ send_fd   : 5
+ recv_fd   : 0
+ send_pack_num:0
+*******************
+
+
+
+
+deal function = 3
+str = 0 zzy_2
+
+
+*****发送包****
+ type    :3
+ from    : server
+ to      : zzy
+ mes     : 0 zzy_2
+ recv_fd : 5
+ pack left Now is:0
+
+
