@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cc42e1-f624-4c3e-8f82-cfed65b0ccfa" name="Default Changelist" comment="try">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/openEuler" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -158,6 +159,7 @@
       <workItem from="1604497674484" duration="244000" />
       <workItem from="1604535298189" duration="8585000" />
       <workItem from="1604575183714" duration="1200000" />
+      <workItem from="1608094194641" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1577787597694</created>
@@ -194,13 +196,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="try" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="214" width="800" height="677" key="#New_File_Extensions" timestamp="1608094410179">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="214" width="800" height="677" key="#New_File_Extensions/0.27.1920.1053@0.27.1920.1053" timestamp="1608094410179" />
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608094306344">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1608094306344" />
     <state x="2687" y="349" width="375" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603719784245">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2687" y="349" width="375" height="406" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603719784245" />
-    <state x="2663" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603716787558">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="743" y="329" width="542" height="472" key="FileChooserDialogImpl" timestamp="1608094432750">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="743" y="329" width="542" height="472" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1608094432750" />
     <state x="2663" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603716787558" />
     <state x="404" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1604575197843">
       <screen x="0" y="27" width="1920" height="1053" />
