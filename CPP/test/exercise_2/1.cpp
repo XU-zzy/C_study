@@ -7,11 +7,12 @@ using namespace std;
 //销售项目
 class Sales_item{
 public:
+    //https://www.cnblogs.com/jiayouwyhit/p/3681224.html
     //这里的string &book要定义为const，
-    //但如果你把一个临时变量当作非const引用参数传进来，
+    //如果你把一个临时变量当作非const引用参数传进来，
     //由于临时变量的特殊性，程序员并不能操作临时变量，
     //而且临时变量随时可能被释放掉，所以，一般说来，修改一个临时变量是毫无意义的，
-    // 据此，c++编译器加入了临时变量不能作为非const引用的这个语义限制。
+    //据此，c++编译器加入了临时变量不能作为非const引用的这个语义限制。
     Sales_item(const std::string &book, unsigned units,double amount)
         :isbn(book),units_sold(units),revenue(amount){
 
@@ -29,6 +30,7 @@ public:
         return isbn == rhs.isbn;
     }
 
+    //在这里，由于函数要对其中的数据成员进行修改，所以不能定义为const
     void add(const Sales_item &rhs){
         units_sold += rhs.units_sold;
         revenue += rhs.revenue;
