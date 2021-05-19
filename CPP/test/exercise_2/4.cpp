@@ -1,4 +1,6 @@
-//this指针和mutable
+//this指针
+//可变数据成员mutable
+//例子没写完
 #include <iostream>
 #include <string>
 
@@ -34,7 +36,7 @@ public:
 
 private:
 
-    mutable a;      //计数器，在const成员函数里也可变
+    mutable int a;      //计数器，在const成员函数里也可变
 
     std::string contents;
     index cursor;
