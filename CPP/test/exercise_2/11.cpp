@@ -14,7 +14,7 @@ private:
     int units_sold;
     double revenue;
 public:
-    Sales_item(/* args */) {}
+    Sales_item() {}
     ~Sales_item() {}
 };
 
