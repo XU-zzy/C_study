@@ -34,7 +34,7 @@ public:
         }
     }
 
-    ~CDemo() {
+    ~CDemo() {   
         delete str;
     }
 };
