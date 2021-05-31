@@ -25,6 +25,7 @@ void oops()
     my_thread.detach(); // 2. 不等待线程结束
 }
 
+//------------------------------------------------------
 //等待线程完成
 struct func; // 定义在清单2.1中
 void f()
@@ -43,6 +44,8 @@ void f()
     }
     t.join(); // 2
 }
+
+//--------------------------------------------------------------
 
 //使用RAII等待线程完成
 class thread_guard
@@ -68,6 +71,8 @@ public:
     thread_guard(thread_guard const &) = delete; // 3
     thread_guard &operator=(thread_guard const &) = delete;
 };
+
+
 struct func; // 定义在清单2.1中
 
 void do_something_in_current_thread()
