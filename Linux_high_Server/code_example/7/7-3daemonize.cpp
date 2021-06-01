@@ -1,3 +1,4 @@
+#include<unistd.h>
 bool daemonize()
 {
     pid_t pid = fork();
